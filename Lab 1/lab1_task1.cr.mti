@@ -1,0 +1,42 @@
+{H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd} {0 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_4bit
+-- Compiling architecture dataflow of clg_4bit
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(47): Cannot read output "GA".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(60): Cannot read output "GG".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(71): VHDL Compiler exiting
+
+} {8.0 9.0 11.0 12.0 14.0 15.0} {}} {{H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 11:47:16 on Jan 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_4bit
+-- Compiling architecture dataflow of clg_4bit
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(33): (vcom-1581) No feasible entries for infix operator 'or'.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(33): Bad right hand side (infix expression) in signal assignment.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(37): (vcom-1581) No feasible entries for infix operator 'or'.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(37): Bad right hand side (infix expression) in signal assignment.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(41): (vcom-1136) Unknown identifier "g1".
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(41): Bad right hand side (infix expression) in signal assignment.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(44): Cannot read output "GA".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(52): near "z_and": (vcom-1576) expecting ';'.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(55): Cannot read output "GG".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd(57): near "c": (vcom-1576) expecting ';'.
+End time: 11:47:16 on Jan 09,2018, Elapsed time: 0:00:00
+Errors: 10, Warnings: 0
+
+} {10.0 17.0 19.0 21.0 23.0 24.0} {}}

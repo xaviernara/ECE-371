@@ -17,20 +17,21 @@ end entity;
 architecture dataflow of clg_4bit is
 	
   --signal and_or : std_logic_vector(2 downto 0);
-    signal and_or : std_logic
+    signal and_or : std_logic;
   --signal and_or2 : std_logic_vector(1 downto 0);
-  signal and_or2 : std_logic
+  signal and_or2 : std_logic;
   signal and_or3 : std_logic;
   --SIGNAL and_and : std_logic_vector(2 downto 0);
-  signal z_and : std_logic_vector(3 downto 0);  
-  signal z_or : std_logic_vector(2 downto 0); 
+  signal z_and : std_logic_vector(3 downto 0);  --this intermediate signal is for the connection of inputs that's and'ed with an combo of a & g
+  signal z_or : std_logic_vector(2 downto 0); --this intermediate signal is for the connection of inputs that's or'ed with g3 to g1
 
    
 begin
    	--and_or(2) <= (g(2) and a(3));
 	--and_or(1) <= (g(1) and a(3) and a(2));
 	--and_or(0) <= (g(0) and a(3) and a(2) and a(1));
-	and_or <= g(3) or ((g(2) and a(3)) or (g(1) and a(3) and a(2)) or (g(0) and a(3) and a(2) and a(1)))
+	--and_or <= g(3) or ((g(2) and a(3)) or (g(1) and a(3) and a(2)) or (g(0) and a(3) and a(2) and a(1)));
+	and_or <= ((g(2) and a(3)) or (g(1) and a(3) and a(2)) or (g(0) and a(3) and a(2) and a(1)));
 	z_or(2) <= g(3) or and_or;
 ------------------------------------------------------
         --and_or2(1) <= (g(1) and a(2));

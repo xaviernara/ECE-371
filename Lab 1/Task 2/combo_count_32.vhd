@@ -1,5 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.math_complex.all;
+use ieee.MATH_COMPLEX.all;
+
 
 entity combo_count_32 is 
     port(
@@ -17,9 +20,10 @@ architecture behavior of combo_count_32 is
   signal q : std_logic_vector(2 downto 0);
 	    
 begin
+ q(p)<= ceiling (log2*(p + 1)); 
 
-  y <= x when "000" else
-       x when "001" else
-       x when "010" else
-       x
+  y <= "00" when x = "000" else,
+       "01" when x = "001" else,
+       "11" when x = "001" else,
+       "10" when others;
 	 

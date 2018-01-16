@@ -1,0 +1,53 @@
+{H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd} {0 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity combo_count_94
+-- Compiling architecture structure of combo_count_94
+** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): (vcom-1136) Unknown identifier "combo1".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): (vcom-1136) Unknown identifier "combo2".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(32): (vcom-1136) Unknown identifier "combo3".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(32): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(36): (vcom-1136) Unknown identifier "combo4".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(36): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(40): VHDL Compiler exiting
+
+} {9.0 11.0 12.0 14.0 15.0 17.0 18.0 21.0} {}} {{H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 08:58:31 on Jan 16,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity combo_count_94
+-- Compiling architecture structure of combo_count_94
+** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): (vcom-1136) Unknown identifier "combo1".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): (vcom-1136) Unknown identifier "combo2".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(31): (vcom-1136) Unknown identifier "combo3".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(31): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(36): VHDL Compiler exiting
+End time: 08:58:31 on Jan 16,2018, Elapsed time: 0:00:00
+Errors: 7, Warnings: 3
+
+} {11.0 13.0 14.0 16.0 17.0 20.0} {}} {{H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 08:58:31 on Jan 16,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd 
+** Error: (vcom-7) Failed to open design unit file "H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd" in read mode.
+No such file or directory. (errno = ENOENT)
+End time: 08:58:31 on Jan 16,2018, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {5.0 6.0} {}}

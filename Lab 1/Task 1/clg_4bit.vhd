@@ -25,7 +25,6 @@ architecture dataflow of clg_4bit is
   signal z_and : std_logic_vector(3 downto 0);  --this intermediate signal is for the connection of inputs that's and'ed with an combo of a & g
   signal z_or : std_logic_vector(2 downto 0); --this intermediate signal is for the connection of inputs that's or'ed with g3 to g1
 
-   
 begin
    	--and_or(2) <= (g(2) and a(3));
 	--and_or(1) <= (g(1) and a(3) and a(2));
@@ -63,8 +62,6 @@ begin
 	c(1)<= (z_or(1) and z_and(1));
 	c(0)<= (z_or(0) and z_and(0));
 
-
-	
 	--and_or(0) <= (g(3) or and_or(3) or and_or(2) or and_or() or and_or(3);
 	
 --or (g(1) and a(3) and a(2)) or (g(0) and a(3) and a(2) and a(1)) or g(3)   

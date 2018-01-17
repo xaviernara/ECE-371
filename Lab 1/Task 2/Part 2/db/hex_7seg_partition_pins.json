@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seg_lights[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_lights[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_lights[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_lights[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_lights[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_lights[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_lights[6]",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "hex_val[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_val[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_val[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_val[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

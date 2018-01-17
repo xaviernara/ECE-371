@@ -9,7 +9,7 @@ z2
 cModel Technology
 dH:/ECE 371/ECE-371/Lab 1/Task 2/Part 2
 Ehex_7seg
-Z0 w1516127240
+Z0 w1516138790
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dH:/ECE 371/ECE-371/Lab 1/Task 3
@@ -21,9 +21,9 @@ V]o[L5LH;BYKlM^A4eU9923
 !s100 :`=e@g9gWL^BBH7RObfMB0
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1516127245
+Z7 !s110 1516205543
 !i10b 1
-Z8 !s108 1516127244.000000
+Z8 !s108 1516205543.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\ECE 371\ECE-371\Lab 1\Task 3\hex_7seg.vhd|
 Z10 !s107 H:\ECE 371\ECE-371\Lab 1\Task 3\hex_7seg.vhd|
 !i113 1
@@ -52,8 +52,8 @@ Z14 w1516126144
 R1
 R2
 R3
-Z15 8H:\ECE 371\ECE-371\Lab 1\Task 3\hex_7seg_golden.vhd
-Z16 FH:\ECE 371\ECE-371\Lab 1\Task 3\hex_7seg_golden.vhd
+Z15 8H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_golden.vhd
+Z16 FH:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_golden.vhd
 l0
 L4
 V4Ye:NIYz95:Hh[;BDCmoY0
@@ -62,16 +62,16 @@ R6
 32
 R7
 !i10b 1
-Z17 !s108 1516127245.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\ECE 371\ECE-371\Lab 1\Task 3\hex_7seg_golden.vhd|
-Z19 !s107 H:\ECE 371\ECE-371\Lab 1\Task 3\hex_7seg_golden.vhd|
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_golden.vhd|
+Z18 !s107 H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_golden.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R1
 R2
-Z20 DEx4 work 15 hex_7seg_golden 0 22 4Ye:NIYz95:Hh[;BDCmoY0
+Z19 DEx4 work 15 hex_7seg_golden 0 22 4Ye:NIYz95:Hh[;BDCmoY0
 l14
 L11
 V<JbWYXKjW_Pok9S^bmB_12
@@ -80,52 +80,52 @@ R6
 32
 R7
 !i10b 1
+R8
 R17
 R18
-R19
 !i113 1
 R11
 R12
 Ehex_7seg_tb
-Z21 w1358619100
-Z22 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z20 w1516138805
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z23 8H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd
-Z24 FH:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd
+Z22 8H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd
+Z23 FH:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd
 l0
 L5
 VgDU<MzB;j18P36^E1CQQS2
 !s100 FHccMcA4?QFmmUSO1bfIV1
 R6
 32
-R7
+Z24 !s110 1516205544
 !i10b 1
-R17
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd|
-Z26 !s107 H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd|
+Z25 !s108 1516205544.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd|
+Z27 !s107 H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_tb.vhd|
 !i113 1
 R11
 R12
 Abehavior
 R13
-R20
-R22
+R19
+R21
 R1
 R2
-Z27 DEx4 work 11 hex_7seg_tb 0 22 gDU<MzB;j18P36^E1CQQS2
+Z28 DEx4 work 11 hex_7seg_tb 0 22 gDU<MzB;j18P36^E1CQQS2
 l18
 L8
-Z28 VT202lQJZal^b^?8dKYEHe1
-Z29 !s100 4CMkLEAS60]MKQn4TR<g83
+Z29 VT202lQJZal^b^?8dKYEHe1
+Z30 !s100 4CMkLEAS60]MKQn4TR<g83
 R6
 32
-R7
+R24
 !i10b 1
-R17
 R25
 R26
+R27
 !i113 1
 R11
 R12

@@ -29,15 +29,11 @@ end entity;
 
 architecture behavior of hex_7seg is
   signal hex_en :std_logic_vector(4 downto 0);
-  --signal q : std_logic_vector(2 downto 0);
-  
-	    
+  --signal q : std_logic_vector(2 downto 0); 
 begin
 
 hex_en <= en & hex_val;
 --hex_en_sel <= enable & hex_val
-
-
 --with hex_en select
 --with en select
 --    seg_lights<=  "0000001" when hex_val <= "0000",  -- '0'
@@ -93,23 +89,23 @@ with hex_en select
 --     		 "0110000" when "01110",  -- 'E'
 --    		 "0111000" when others;  -- 'F' 
 ----       
-seg_lights<=     "1000000" when "00000",  -- '0'
-   		 "1111001" when "00001",  -- '1'
-   		 "0100100" when "00010",  -- '2'
-            	 "0110000" when "00011",  -- '3'
-     		 "0011001" when "00100",  -- '4'
-     		 "0010010" when "00101",  -- '5'
-     		 "0000010" when "00110",  -- '6'
-     		 "1111000" when "00111",  -- '7'  
-     		 "0000000" when "01000",  -- '8'
-     	         "0010000" when "01001",  -- '9'
-    		 "0001000" when "01010",  -- 'A'
-     		 "0000011" when "01011",  -- 'b'
-     		 "1000110" when "01100",  -- 'C'
-     		 "0100001" when "01101",  -- 'd'
-     		 "0000110" when "01110",  -- 'E'
-    		 "0001110" when "01111",  -- 'F' 
-                 "1111111" when others;
+seg_lights<= "1000000" when "00000",  -- '0'
+				 "1111001" when "00001",  -- '1'
+   		    "0100100" when "00010",  -- '2'
+             "0110000" when "00011",  -- '3'
+     		    "0011001" when "00100",  -- '4'
+     		    "0010010" when "00101",  -- '5'
+     		    "0000010" when "00110",  -- '6'
+     		    "1111000" when "00111",  -- '7'  
+     		    "0000000" when "01000",  -- '8'
+     	       "0010000" when "01001",  -- '9'
+    		    "0001000" when "01010",  -- 'A'
+     		    "0000011" when "01011",  -- 'b'
+     		    "1000110" when "01100",  -- 'C'
+     		    "0100001" when "01101",  -- 'd'
+     		    "0000110" when "01110",  -- 'E'
+    		    "0001110" when "01111",  -- 'F' 
+             "1111111" when others; --all lights off
 --      
    --process(hex_val, enable)
    -- process(hex_en) is BEGIN

@@ -108,7 +108,8 @@ seg_lights<=     "1000000" when "00000",  -- '0'
      		 "1000110" when "01100",  -- 'C'
      		 "0100001" when "01101",  -- 'd'
      		 "0000110" when "01110",  -- 'E'
-    		 "0001110" when others;  -- 'F' 
+    		 "0001110" when "01111",  -- 'F' 
+                 "1111111" when others;
 --      
    --process(hex_val, enable)
    -- process(hex_en) is BEGIN

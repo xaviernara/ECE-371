@@ -8,24 +8,129 @@ z2
 !i10f 100
 cModel Technology
 dC:/altera17
+Ecombo_count_32
+Z0 w1516205303
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dH:/ECE 371/ECE-371/Lab 1/Task 2/Part 2
+Z4 8H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd
+Z5 FH:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd
+l0
+L7
+V_jM7ai>ZX@nO@3?>2EKJG1
+!s100 dX4zziV?=mRzn=Ajo[Z]C2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1516218842
+!i10b 1
+Z8 !s108 1516218841.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd|
+Z10 !s107 H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+Z13 DEx4 work 14 combo_count_32 0 22 _jM7ai>ZX@nO@3?>2EKJG1
+l22
+L18
+Z14 VkJASM1S?h=zg16UJM:ck50
+Z15 !s100 aA6S;82d5<0>jCXzHoolJ3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
 Ecombo_count_94
-w1516114973
-DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-dH:/ECE 371/ECE-371/Lab 1/Task 2/Part 2
+w1516218836
+R1
+R2
+R3
 8H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd
 FH:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd
 l0
 L5
 V]S;R[fSInUz_URX<35AB22
 !s100 Zf=FZKRHdiKB2>z`B3ZR<3
-OV;C;10.5b;63
+R6
 32
-!s110 1516115248
+Z16 !s110 1516218841
 !i10b 1
-!s108 1516115248.000000
+!s108 1516218840.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd|
 !s107 H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd|
 !i113 1
-o-work work -2002 -explicit
-tExplicit 1 CvgOpt 0
+R11
+R12
+Ecombo_count_94_tb
+w1452061100
+Z17 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z18 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+8H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd
+FH:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd
+l0
+L6
+Vb1o5FWAGZ7j_cYd7ZZA433
+!s100 ^75K[`3`C>ij?DS5OTOCP3
+R6
+32
+R16
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd|
+!s107 H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd|
+!i113 1
+R11
+R12
+Ecombo_count_golden
+Z19 w1327461102
+R17
+R18
+R1
+R2
+R3
+Z20 8H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd
+Z21 FH:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd
+l0
+L6
+VVQCmG@d36;1Z[hO_DBDbK3
+!s100 5c7W[^I@0?Mo@U7b:PU4M0
+R6
+32
+R16
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd|
+Z23 !s107 H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R17
+R18
+R1
+R2
+DEx4 work 18 combo_count_golden 0 22 VQCmG@d36;1Z[hO_DBDbK3
+l14
+L13
+V4:46OF^gcM0k3]T7ol^M70
+!s100 QCI>HMVaK87>MaQFD`HK]0
+R6
+32
+R16
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12

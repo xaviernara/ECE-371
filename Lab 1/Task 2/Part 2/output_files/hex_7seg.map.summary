@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jan 17 10:18:33 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : hex_7seg
+Top-level Entity Name : hex_7seg
+Family : Cyclone IV E
+Total logic elements : 14
+    Total combinational functions : 14
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

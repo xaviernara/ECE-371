@@ -1,25 +1,51 @@
-{H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd} {0 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}
+{H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity combo_count_94_tb
+-- Compiling architecture behavior of combo_count_94_tb
+-- Loading entity combo_count_golden
+-- Loading entity combo_count_94
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd(29): (vcom-1484) Unknown formal identifier "x".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd(30): (vcom-1484) Unknown formal identifier "y".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94_tb.vhd(51): VHDL Compiler exiting
+
+} {12.0 15.0} {}} {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity combo_count_32
+-- Compiling architecture behavior of combo_count_32
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity combo_count_golden
+-- Compiling architecture behavior of combo_count_golden
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd} {0 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity combo_count_94
 -- Compiling architecture structure of combo_count_94
-** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): (vcom-1136) Unknown identifier "combo1".
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(24): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
-** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): (vcom-1136) Unknown identifier "combo2".
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(28): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
-** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(32): (vcom-1136) Unknown identifier "combo3".
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(32): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
-** Warning: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(36): (vcom-1136) Unknown identifier "combo4".
-** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(36): near ":": (vcom-1576) expecting == or '+' or '-' or '&'.
+-- Loading entity combo_count_32
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(26): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(30): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(34): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(38): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
 ** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd(40): VHDL Compiler exiting
 
-} {9.0 11.0 12.0 14.0 15.0 17.0 18.0 21.0} {}} {{H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}
+} {9.0 14.0} {}} {{H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 08:58:31 on Jan 16,2018
 vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 1/Task 2/Part 2/combo_count_94.vhd 

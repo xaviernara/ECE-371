@@ -1,0 +1,43 @@
+|clg_4bit
+c0 => z_and[3].IN1
+c0 => z_and[2].IN1
+c0 => z_and[1].IN1
+c0 => z_and[0].IN0
+g[0] => z_or.IN0
+g[0] => z_or.IN1
+g[0] => z_or.IN0
+g[0] => c.IN1
+g[1] => z_or.IN0
+g[1] => z_or.IN0
+g[1] => z_or[0].IN1
+g[2] => z_or.IN0
+g[2] => z_or[1].IN1
+g[3] => z_or.IN1
+a[0] => z_and.IN0
+a[0] => z_and.IN0
+a[0] => z_and.IN0
+a[0] => z_and[0].IN1
+a[1] => z_or.IN1
+a[1] => z_or.IN0
+a[1] => z_or.IN1
+a[1] => z_and.IN1
+a[1] => z_and.IN1
+a[1] => z_and.IN1
+a[2] => z_or.IN1
+a[2] => z_or.IN1
+a[2] => z_or.IN1
+a[2] => z_or.IN1
+a[2] => z_and.IN1
+a[2] => z_and.IN1
+a[3] => z_or.IN1
+a[3] => z_or.IN1
+a[3] => z_or.IN1
+a[3] => z_and.IN1
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+GG <= z_or.DB_MAX_OUTPUT_PORT_TYPE
+GA <= z_and.DB_MAX_OUTPUT_PORT_TYPE
+
+

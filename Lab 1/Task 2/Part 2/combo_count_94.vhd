@@ -21,19 +21,19 @@ architecture structure of combo_count_94 is
 	    
 begin
  
-32combo1: entity work.combo_count_32 (behavior) 
+combo1: entity work.combo_count_32 (behavior) 
 	   --PORT MAP(x(2 downto 0) => x(8 downto 6), y(1) =>p(1)); 
       	  PORT MAP(x => x1(8 downto 6), y =>y1(3)); 
 
-32combo2: entity work.combo_count_32 (behavior) 
+combo2: entity work.combo_count_32 (behavior) 
 	  --PORT MAP(x(2 downto 0) => x(5 downto 3), y(1) =>p(0)); 
       	  PORT MAP(x => x1(5 downto 3), y =>y1(2)); 
 
-32combo3: entity work.combo_count_32 (behavior) 
+combo3: entity work.combo_count_32 (behavior) 
 	   --PORT MAP(x(2 downto 0) => x(2 downto 0), y(1) =>open); 
 	  PORT MAP(x => x1(2 downto 0), y =>y1(1)); 
       
-32combo4: entity work.combo_count_32 (behavior) 
+combo4: entity work.combo_count_32 (behavior) 
 	   --PORT MAP(x(2 downto 0) => x(2 downto 0), y(1) =>open); 
 	  PORT MAP(x => x1(2 downto 0), y =>y1(0));       
       

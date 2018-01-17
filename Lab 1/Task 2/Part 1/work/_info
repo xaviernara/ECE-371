@@ -8,3 +8,130 @@ z2
 !i10f 100
 cModel Technology
 dC:/altera17
+Ecombo_count_32
+Z0 w1516204453
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dH:/ECE 371/ECE-371/Lab 1/Task 2/Part 1
+Z4 8H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd
+Z5 FH:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd
+l0
+L7
+VjCCnNYU0ki0hG=BXJ3WJ;3
+!s100 dX4zziV?=mRzn=Ajo[Z]C2
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1516204456
+!i10b 1
+Z8 !s108 1516204455.000000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd|
+Z10 !s107 H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32.vhd|
+!i113 1
+Z11 o-work work -2008 -explicit
+Z12 tExplicit 1 NoCoverage 1 CvgOpt 0
+Abehavior
+R1
+R2
+Z13 DEx4 work 14 combo_count_32 0 22 jCCnNYU0ki0hG=BXJ3WJ;3
+l22
+L18
+VcZMjP7lj05W1Tb[R>CPVY1
+!s100 aA6S;82d5<0>jCXzHoolJ3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecombo_count_32_tb
+Z14 w1358922426
+Z15 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z17 8H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd
+Z18 FH:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd
+l0
+L6
+VF1PmT[GMCQ;37N>7eFb=93
+!s100 zPd:5@@36LEgj=Y=JOJZI1
+R6
+33
+R7
+!i10b 1
+Z19 !s108 1516204456.000000
+Z20 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd|
+Z21 !s107 H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R13
+Z22 DEx4 work 18 combo_count_golden 0 22 I8lUkKdC833g:AD1X0@8=1
+R15
+R16
+R1
+R2
+DEx4 work 17 combo_count_32_tb 0 22 F1PmT[GMCQ;37N>7eFb=93
+l17
+L9
+VzU^fmCDC?Zg5`jH`;@a]^0
+!s100 T;H4AbmL2E:7CCP[Y4WfM3
+R6
+33
+R7
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Ecombo_count_golden
+Z23 w1327461102
+R15
+R16
+R1
+R2
+R3
+Z24 8H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd
+Z25 FH:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd
+l0
+L6
+VI8lUkKdC833g:AD1X0@8=1
+!s100 5c7W[^I@0?Mo@U7b:PU4M0
+R6
+33
+R7
+!i10b 1
+R19
+Z26 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd|
+Z27 !s107 H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R15
+R16
+R1
+R2
+R22
+l14
+L13
+Z28 V^0_90li_ZDP1n0kLJBVa`0
+Z29 !s100 QCI>HMVaK87>MaQFD`HK]0
+R6
+33
+R7
+!i10b 1
+R19
+R26
+R27
+!i113 1
+R11
+R12

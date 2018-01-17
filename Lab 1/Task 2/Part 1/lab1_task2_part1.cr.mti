@@ -1,1 +1,53 @@
+{H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity combo_count_golden
+-- Compiling architecture behavior of combo_count_golden
 
+} {} {}} {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity combo_count_32_tb
+-- Compiling architecture behavior of combo_count_32_tb
+-- Loading entity combo_count_golden
+-- Loading entity combo_count_32
+
+} {} {}} {{H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd}} {0 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 18:12:55 on Jan 16,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity combo_count_32_tb
+-- Compiling architecture behavior of combo_count_32_tb
+** Error: (vcom-11) Could not find work.combo_count_golden.
+** Error (suppressible): H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd(23): (vcom-1195) Cannot find expanded name "work.combo_count_golden".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd(23): Unknown expanded name.
+** Error: (vcom-11) Could not find work.combo_count_32.
+** Error (suppressible): H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd(29): (vcom-1195) Cannot find expanded name "work.combo_count_32".
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd(29): Unknown expanded name.
+** Error: H:/ECE 371/ECE-371/Lab 1/Task 2/Part 1/combo_count_32_tb.vhd(52): VHDL Compiler exiting
+End time: 18:12:55 on Jan 16,2018, Elapsed time: 0:00:00
+Errors: 7, Warnings: 0
+
+} {12.0 13.0 14.0 16.0 17.0 19.0} {}} {{H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd}} {0 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 18:12:55 on Jan 16,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd 
+** Error: (vcom-7) Failed to open design unit file "H:/ECE 371/ECE-371/Lab 1/Task 2/combo_count_32.vhd" in read mode.
+No such file or directory. (errno = ENOENT)
+End time: 18:12:55 on Jan 16,2018, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {5.0 6.0} {}}

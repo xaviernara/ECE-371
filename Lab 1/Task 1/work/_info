@@ -9,23 +9,123 @@ z2
 cModel Technology
 dC:/altera17
 Eclg_4bit
-w1515535468
-DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-dH:/ECE 371/ECE-371/Lab 1
-8H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd
-FH:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd
+Z0 w1516202463
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dH:/ECE 371/ECE-371/Lab 1/Task 1
+Z4 8H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit.vhd
+Z5 FH:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit.vhd
 l0
 L4
 V;TdnG7^RYO4bb_8XmA]hh2
 !s100 =>8:<EelKSaPe5RmoN^fi3
-OV;C;10.5b;63
+Z6 OV;C;10.5b;63
 32
-!s110 1515535776
+Z7 !s110 1516202757
 !i10b 1
-!s108 1515535776.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd|
-!s107 H:/ECE 371/ECE-371/Lab 1/clg_4bit.vhd|
+Z8 !s108 1516202757.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit.vhd|
+Z10 !s107 H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit.vhd|
 !i113 1
-o-work work -2002 -explicit
-tExplicit 1 CvgOpt 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adataflow
+R1
+R2
+Z13 DEx4 work 8 clg_4bit 0 22 ;TdnG7^RYO4bb_8XmA]hh2
+l28
+L17
+Vd3aOojKVMVEGPA<ZRW_lh2
+!s100 o>UMjMb`gd15nig]7=z]C2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eclg_4bit_tb
+Z14 w1389816388
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z16 8H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit_tb.vhd
+Z17 FH:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit_tb.vhd
+l0
+L5
+VXabPg;9TK@[JZdHKH19VC0
+!s100 9cO^;8g=CMU^NeWE@LZ2Z0
+R6
+32
+Z18 !s110 1516202758
+!i10b 1
+Z19 !s108 1516202758.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit_tb.vhd|
+Z21 !s107 H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R13
+Z22 DEx4 work 10 clg_golden 0 22 3Fbg9fU7>41MdAZn;X=eI2
+R15
+R1
+R2
+DEx4 work 11 clg_4bit_tb 0 22 XabPg;9TK@[JZdHKH19VC0
+l20
+L8
+VOQMH:A2ALLb`XUmKVBaVc1
+!s100 <SaAXl]2Mz3EB;b4B1n490
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Eclg_golden
+Z23 w1325626754
+R1
+R2
+R3
+Z24 8H:/ECE 371/ECE-371/Lab 1/Task 1/clg_golden.vhd
+Z25 FH:/ECE 371/ECE-371/Lab 1/Task 1/clg_golden.vhd
+l0
+L4
+V3Fbg9fU7>41MdAZn;X=eI2
+!s100 a?dnYX8hikO115mQ5a69U0
+R6
+32
+R18
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/ECE 371/ECE-371/Lab 1/Task 1/clg_golden.vhd|
+Z27 !s107 H:/ECE 371/ECE-371/Lab 1/Task 1/clg_golden.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+R22
+l15
+L12
+V>KU`1Ubd>^VV7PzjDTVPP1
+!s100 7PJhMbcNB5^H08d9[IIj<1
+R6
+32
+R18
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12

@@ -1,4 +1,4 @@
-{H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:\ECE 371\ECE-371\Lab 1\Task 3\hex_7seg_golden.vhd}
+{H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 3/hex_7seg_golden.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO

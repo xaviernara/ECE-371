@@ -4,8 +4,8 @@ use ieee.std_logic_1164.all;
 
 entity combo_count_94 is 
     port(
-	x  : in std_logic_vector(8 downto 0); --Data operand
-	y : out  std_logic_vector(3 downto 0) --Number of 1?s in data operand x
+	x1  : in std_logic_vector(8 downto 0); --Data operand
+	y1 : out  std_logic_vector(3 downto 0) --Number of 1?s in data operand x
    );
 end entity;
 --The (p,q) = (9, 4) combinational counter comprises only several (p,q) = (3, 2) combinational
@@ -21,16 +21,20 @@ architecture structure of combo_count_94 is
 	    
 begin
  
-32combo1: entity work.combo_count_32 (behavior) 
-	   PORT MAP(x(2 downto 0) => x(8 downto 6), y(1) =>p(1)); 
-      
+combo_1: entity work.combo_count_32 (behavior) 
+	   --PORT MAP(x(2 downto 0) => x(8 downto 6), y(1) =>p(1)); 
+      	  PORT MAP(x => x1(8 downto 6), y =>y1(3)); 
 
-32combo2: entity work.combo_count_32 (behavior) 
-	   PORT MAP(x(2 downto 0) => x(5 downto 3), y(1) =>p(0)); 
+combo_2: entity work.combo_count_32 (behavior) 
+	  --PORT MAP(x(2 downto 0) => x(5 downto 3), y(1) =>p(0)); 
+      	  PORT MAP(x => x1(5 downto 3), y =>y1(2)); 
+
+combo_3: entity work.combo_count_32 (behavior) 
+	   --PORT MAP(x(2 downto 0) => x(2 downto 0), y(1) =>open); 
+	  PORT MAP(x => x1(2 downto 0), y =>y1(1)); 
       
-32combo3: entity work.combo_count_32 (behavior) 
-	   PORT MAP(x(2 downto 0) => x(2 downto 0), y(1) =>open); 
-      
-      
+combo_4: entity work.combo_count_32 (behavior) 
+	   --PORT MAP(x(2 downto 0) => x(2 downto 0), y(1) =>open); 
+	  PORT MAP(x => x1(2 downto 0), y =>y1(0));       
       
 end architecture structure;

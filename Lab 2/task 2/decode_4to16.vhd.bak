@@ -22,22 +22,42 @@ end entity decode_4to16;
 
 architecture mixed of decode_4to16 is 
 
-signal wy : std_logic_vector(19 downto 0);
+--signal wy : std_logic_vector(15 downto 0);
+ signal wy_1 : std_logic_vector(7 downto 0);
+ signal wy_2 : std_logic_vector(1 downto 0);
+ 
  
 begin
 
-combo_logic : for i in 0 to 15 generate
+--	decoder_3to8 : entity work.decode_3to8(structure)
+--	--PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 8) );
+--	PORT MAP(w => w(3 downto 1), en => en, y=> wy(9 downto 2) );
+--
+--	decoder_1to2 : entity work.decode_1to2(behavior)
+--	--PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 5) );
+--	 PORT MAP(w => w(0), en => en, y=> wy(1 downto 0) );
 
-	decoder_3to8 : entity work.decode_3to8(structure)
-	PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 8) );
+
+decoder_3to8 : entity work.decode_3to8(structure)
+       --PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 8) );
+	PORT MAP(w => w(3 downto 1), en => en, y=> wy_1(7 downto 0) );
 
 	decoder_1to2 : entity work.decode_1to2(behavior)
-	PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 5) );
-	 
-	wy <= w(i) and y(i);
+	--PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 5) );
+	 PORT MAP(w => w(0), en => en, y=> wy_2(1 downto 0) );
 
+	--y(i)<= wy(i) and wy(i downto i-1);
+	--y(i)<=wy(i downto i-1) and wy(i);
+	--y(i)<=wy_1(i downto i-1) and wy_2(i);
+	--wy <= w(i) and y(i);
+
+combo_logic : for i in 0 to 15 generate
+
+  y(i)<=wy_1(i downto i-1) and wy_2(i downto i-1);
+  --y(i)<= wy_1(i) and wy_2(i);
+	
 end generate combo_logic;
-
+	
 end architecture mixed;
 
 

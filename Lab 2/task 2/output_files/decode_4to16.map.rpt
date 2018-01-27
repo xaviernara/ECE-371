@@ -1,5 +1,5 @@
 Analysis & Synthesis report for decode_4to16
-Mon Jan 22 22:51:56 2018
+Fri Jan 26 20:29:25 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Mon Jan 22 22:51:56 2018           ;
+; Analysis & Synthesis Status ; Failed - Fri Jan 26 20:29:25 2018           ;
 ; Quartus Prime Version       ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name               ; decode_4to16                                ;
 ; Top-level Entity Name       ; decode_4to16                                ;
@@ -161,7 +161,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Jan 22 22:51:20 2018
+    Info: Processing started: Fri Jan 26 20:29:06 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2_task2 -c decode_4to16
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -177,11 +177,23 @@ Info (12021): Found 2 design units, including 1 entities, in source file /users/
 Info (12021): Found 2 design units, including 1 entities, in source file decode_4to16.vhd
     Info (12022): Found design unit 1: decode_4to16-mixed File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 23
     Info (12023): Found entity 1: decode_4to16 File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 4
-Error (10381): VHDL Type Mismatch error at decode_4to16.vhd(52): indexed name returns a value whose type does not match "std_ulogic", the type of the target expression File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 52
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 701 megabytes
-    Error: Processing ended: Mon Jan 22 22:51:56 2018
-    Error: Elapsed time: 00:00:36
-    Error: Total CPU time (on all processors): 00:01:10
+Info (12127): Elaborating entity "decode_4to16" for the top level hierarchy
+Warning (10873): Using initial value X (don't care) for net "y[15..9]" at decode_4to16.vhd(7) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 7
+Warning (10873): Using initial value X (don't care) for net "y[0]" at decode_4to16.vhd(7) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 7
+Error (10028): Can't resolve multiple constant drivers for net "y[8]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10029): Constant driver at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10028): Can't resolve multiple constant drivers for net "y[7]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10028): Can't resolve multiple constant drivers for net "y[6]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10028): Can't resolve multiple constant drivers for net "y[5]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10028): Can't resolve multiple constant drivers for net "y[4]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10028): Can't resolve multiple constant drivers for net "y[3]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10028): Can't resolve multiple constant drivers for net "y[2]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (10028): Can't resolve multiple constant drivers for net "y[1]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
+Error (12153): Can't elaborate top-level user hierarchy
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 10 errors, 3 warnings
+    Error: Peak virtual memory: 689 megabytes
+    Error: Processing ended: Fri Jan 26 20:29:25 2018
+    Error: Elapsed time: 00:00:19
+    Error: Total CPU time (on all processors): 00:00:42
 
 

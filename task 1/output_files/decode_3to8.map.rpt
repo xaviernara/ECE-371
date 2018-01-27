@@ -1,5 +1,5 @@
 Analysis & Synthesis report for decode_3to8
-Mon Jan 22 22:19:19 2018
+Fri Jan 26 17:03:39 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Mon Jan 22 22:19:19 2018           ;
+; Analysis & Synthesis Status        ; Failed - Fri Jan 26 17:03:39 2018           ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; decode_3to8                                 ;
 ; Top-level Entity Name              ; decode_3to8                                 ;
@@ -61,6 +61,8 @@ refer to the applicable agreement for further details.
 ; Device                                                                     ; EP4CE115F29I7      ;                    ;
 ; Top-level entity name                                                      ; decode_3to8        ; decode_3to8        ;
 ; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; VHDL Show LMF Mapping Messages                                             ; Off                ;                    ;
+; VHDL Version                                                               ; VHDL_2008          ; VHDL_1993          ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
 ; Enable compact report table                                                ; Off                ; Off                ;
@@ -69,7 +71,6 @@ refer to the applicable agreement for further details.
 ; Preserve fewer node names                                                  ; On                 ; On                 ;
 ; Intel FPGA IP Evaluation Mode                                              ; Enable             ; Enable             ;
 ; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
-; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
 ; State Machine Processing                                                   ; Auto               ; Auto               ;
 ; Safe State Machine                                                         ; Off                ; Off                ;
 ; Extract Verilog State Machines                                             ; On                 ; On                 ;
@@ -161,21 +162,21 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Jan 22 22:18:52 2018
+    Info: Processing started: Fri Jan 26 17:03:13 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2_task1 -c decode_3to8
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Error (10500): VHDL syntax error at decode_2to4.vhd(15) near text "X"1"";  expecting "when" File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd Line: 15
-Info (12021): Found 0 design units, including 0 entities, in source file /users/xaviernara/desktop/ece-371-master/ece-371-master/decode_2to4.vhd
-Info (15248): File "C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_2to4.vhd" is a duplicate of already analyzed file "C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
-Info (12021): Found 0 design units, including 0 entities, in source file decode_2to4.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file decode_2to4.vhd
+    Info (12022): Found design unit 1: decode_2to4-behavior File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_2to4.vhd Line: 10
+    Info (12023): Found entity 1: decode_2to4 File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_2to4.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file decode_3to8.vhd
     Info (12022): Found design unit 1: decode_3to8-structure File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_3to8.vhd Line: 21
     Info (12023): Found entity 1: decode_3to8 File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_3to8.vhd Line: 4
+Error (10381): VHDL Type Mismatch error at decode_3to8.vhd(38): indexed name returns a value whose type does not match "std_logic_vector", the type of the target expression File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_3to8.vhd Line: 38
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 630 megabytes
-    Error: Processing ended: Mon Jan 22 22:19:19 2018
-    Error: Elapsed time: 00:00:27
-    Error: Total CPU time (on all processors): 00:01:04
+    Error: Peak virtual memory: 628 megabytes
+    Error: Processing ended: Fri Jan 26 17:03:39 2018
+    Error: Elapsed time: 00:00:26
+    Error: Total CPU time (on all processors): 00:01:00
 
 

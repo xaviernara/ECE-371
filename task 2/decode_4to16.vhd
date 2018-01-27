@@ -37,10 +37,9 @@ begin
 --	--PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 5) );
 --	 PORT MAP(w => w(0), en => en, y=> wy(1 downto 0) );
 
-combo_logic : for i in 0 to 15 generate
 
-  decoder_3to8 : entity work.decode_3to8(structure)
-	--PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 8) );
+decoder_3to8 : entity work.decode_3to8(structure)
+       --PORT MAP(w => w(3 downto 1), en => en, y=> y(i downto 8) );
 	PORT MAP(w => w(3 downto 1), en => en, y=> wy_1(7 downto 0) );
 
 	decoder_1to2 : entity work.decode_1to2(behavior)
@@ -49,13 +48,19 @@ combo_logic : for i in 0 to 15 generate
 
 	--y(i)<= wy(i) and wy(i downto i-1);
 	--y(i)<=wy(i downto i-1) and wy(i);
-	
-	y(i)<=wy_1(i downto i-1) and wy_2(i);
-
+	--y(i)<=wy_1(i downto i-1) and wy_2(i);
 	--wy <= w(i) and y(i);
 
-end generate combo_logic;
+combo_logic_level1 : for COL in 0 to 7 generate
+	combo_logic_level2 : for ROW in 0 to 1 generate
+	
+		y(COL+1)<=wy_1(COL) and wy_2(ROW);
+  --y(i)<= wy_1(i) and wy_2(i);
+	
+	end generate combo_logic_level2;
+end generate combo_logic_level1;
 
+	
 end architecture mixed;
 
 

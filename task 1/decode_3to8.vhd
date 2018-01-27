@@ -20,21 +20,31 @@ end entity decode_3to8;
 
 architecture structure of decode_3to8 is 
 
- signal enable : std_logic_vector(1 downto 0);
---enable : in std_logic;
+ --signal enable : std_logic_vector(1 downto 0);
+ --enable : in std_logic;
 signal x : std_logic_vector(1 downto 0);
+--signal x : std_logic_vector(3 downto 0);
+signal unused1 : std_logic;
+signal unused2 : std_logic;
+
 
 begin
-	y(7 downto 6) <= x;
+	--y(7 downto 6) <= x;
+	--x<=y(7 downto 6);
+	--unused<= "0000";
 	
-	decode1_3to8 : entity work.decode_2to4(behavior)
-		PORT MAP(w(1) => '0', w(0) => w(2) , en => en, y(3 downto 2) => x, y(1 downto 0)=>y(5 downto 4) );
+	decode1_2to4 : entity work.decode_2to4(behavior)
+		--PORT MAP(w(1) => '0', w(0) => w(2) , en => en, y(3 downto 2) => x, y(1 downto 0)=> open );
+		PORT MAP(w(1) => '0', w(0) => w(2) , en => en, y(3 downto 2) => x, y(1 downto 0)=> y(5 downto 4) );
+		--PORT MAP(w=> w(2), en => en, y(3) => x(1), y(0)=> x(0));
+		--PORT MAP(w=> w(2), en => en, y=>x);
+		
 
-	decode2_3to8 : entity work.decode_2to4(behavior)
-		PORT MAP(w(1 downto 0) => w(2 downto 1), en => x(0), y(3 downto 0) => y(6 downto 3 ) );
+	decode2_2to4 : entity work.decode_2to4(behavior)
+		PORT MAP(w(1 downto 0) => w(1 downto 0), en => x(0), y(3 downto 0) => y(7 downto 4 ) );
 	
-	decode3_3to8 : entity work.decode_2to4(behavior)
-		PORT MAP(w(1 downto 0) => w(2 downto 1), en => x(1), y(3 downto 0) => y(3 downto 0 ) );
+	decode3_2to4 : entity work.decode_2to4(behavior)
+		PORT MAP(w(1 downto 0) => w(1 downto 0), en => x(1), y(3 downto 0) => y(3 downto 0 ) );
 	
 	
 	

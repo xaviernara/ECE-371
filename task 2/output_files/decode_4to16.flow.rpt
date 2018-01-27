@@ -1,5 +1,5 @@
 Flow report for decode_4to16
-Mon Jan 22 22:51:56 2018
+Fri Jan 26 20:29:25 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Flow Failed - Mon Jan 22 22:51:56 2018      ;
+; Flow Status                 ; Flow Failed - Fri Jan 26 20:29:25 2018      ;
 ; Quartus Prime Version       ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name               ; decode_4to16                                ;
 ; Top-level Entity Name       ; decode_4to16                                ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/22/2018 22:51:22 ;
+; Start date & time ; 01/26/2018 20:29:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; decode_4to16        ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 213525877472640.151669028107472        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 211326854216834.151702734703936        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 125                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -92,8 +92,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:36     ; 1.0                     ; 701 MB              ; 00:01:10                           ;
-; Total                ; 00:00:36     ; --                      ; --                  ; 00:01:10                           ;
+; Analysis & Synthesis ; 00:00:19     ; 1.0                     ; 689 MB              ; 00:00:42                           ;
+; Total                ; 00:00:19     ; --                      ; --                  ; 00:00:42                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

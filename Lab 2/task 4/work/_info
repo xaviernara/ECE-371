@@ -1,0 +1,244 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3
+Pdata_types
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z2 w1517199044
+Z3 dH:/ECE 371/ECE-371/Lab 2/task 4
+8H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd
+FH:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd
+l0
+L4
+V<DW>`>Km0OkF?hM?]1Til3
+!s100 >P0KCHXa2AT51YTe[DKoT2
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1517241504
+!i10b 1
+Z6 !s108 1517241504.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd|
+!s107 H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd|
+!i113 1
+Z7 o-work work -2002 -explicit
+Z8 tExplicit 1 CvgOpt 0
+Edecode_2to4
+Z9 w1516406487
+R0
+R1
+Z10 dC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4
+Z11 8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
+Z12 FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
+l0
+L4
+V[TXmkfDFL6GhX[ZDVi0622
+!s100 O[:Vg27`TdA:4oocI?GDb2
+R4
+33
+Z13 !s110 1516847332
+!i10b 1
+Z14 !s108 1516847332.000000
+Z15 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd|
+Z16 !s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd|
+!i113 1
+Z17 o-work work -2008 -explicit
+R8
+Abehavior
+R0
+R1
+Z18 DEx4 work 11 decode_2to4 0 22 [TXmkfDFL6GhX[ZDVi0622
+l12
+L10
+VnhHlG9l;@4Mj9e8hSJi=o2
+!s100 MM;Saz=4@T6P5M<^bi[<Y2
+R4
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R8
+Emux_4to1
+R2
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+R1
+R3
+Z20 8H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd
+Z21 FH:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd
+l0
+L5
+VKL1Q8i1C1_fo>5i0YiA5c0
+!s100 Ni^JBLDB?l@9jegk4<^fO3
+R4
+32
+R5
+!i10b 1
+R6
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd|
+Z23 !s107 H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd|
+!i113 1
+R7
+R8
+Amixed
+R18
+R19
+R0
+R1
+Z24 DEx4 work 8 mux_4to1 0 22 KL1Q8i1C1_fo>5i0YiA5c0
+l31
+L26
+VIMY=zQjS92`TF>[`5ncPD3
+!s100 X0O3j;AYVoPAhTjTT=G3_3
+R4
+32
+R5
+!i10b 1
+R6
+R22
+R23
+!i113 1
+R7
+R8
+Emux_8to1
+Z25 w1517241303
+R0
+R1
+R3
+Z26 8H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd
+Z27 FH:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd
+l0
+L4
+VNlC<aRWU5:hCEG3eFDCgk3
+!s100 `zH1NIeLYgk]OgH>a2=dT0
+R4
+32
+Z28 !s110 1517241505
+!i10b 1
+Z29 !s108 1517241505.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd|
+Z31 !s107 H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd|
+!i113 1
+R7
+R8
+Astructure
+R19
+R24
+R0
+R1
+Z32 DEx4 work 8 mux_8to1 0 22 NlC<aRWU5:hCEG3eFDCgk3
+l32
+L22
+Z33 VI^Ye5FAiQi5l0`K`]@j];2
+Z34 !s100 =]6XV=4KmQYRW6_=X26<P2
+R4
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R7
+R8
+Emux_8to1_tb
+Z35 w1359323998
+Z36 DPx4 work 10 data_types 0 22 <DW>`>Km0OkF?hM?]1Til3
+R19
+R0
+R1
+R3
+Z37 8H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd
+Z38 FH:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd
+l0
+L6
+V5ahP9O65VkJ]f:0@4_Yca3
+!s100 ;nhU:mSL0@;Q]R]5FiI^n1
+R4
+32
+R28
+!i10b 1
+R29
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd|
+Z40 !s107 H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd|
+!i113 1
+R7
+R8
+Abehavior
+Z41 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z42 DEx4 work 10 mux_golden 0 22 PnPb;mMdhTI?m_mI9_B1^2
+R32
+R36
+R19
+R0
+R1
+DEx4 work 11 mux_8to1_tb 0 22 5ahP9O65VkJ]f:0@4_Yca3
+l44
+L9
+V?GzBT_1C5:_7NkeJD4j9R2
+!s100 E:nOjUIj@Z3OLN4@>^0RY3
+R4
+32
+R28
+!i10b 1
+R29
+R39
+R40
+!i113 1
+R7
+R8
+Emux_golden
+R2
+R36
+R19
+R41
+R0
+R1
+R3
+Z43 8H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd
+Z44 FH:/ECE 371/ECE-371/Lab 2/mux_golden.vhd
+l0
+L7
+VPnPb;mMdhTI?m_mI9_B1^2
+!s100 NIZ_zUzI_EPiE3Zhj9?542
+R4
+32
+R5
+!i10b 1
+R6
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd|
+Z46 !s107 H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd|
+!i113 1
+R7
+R8
+Abehavior
+R36
+R19
+R41
+R0
+R1
+R42
+l18
+L16
+Vb:<H?ZJ;zMU9294<P0WlK0
+!s100 a10e5jR=IEjnc8Z[0;PC51
+R4
+32
+R5
+!i10b 1
+R6
+R45
+R46
+!i113 1
+R7
+R8

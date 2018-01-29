@@ -1,0 +1,131 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dH:/ECE 371/ECE-371/Lab 3/New folder/task 1
+Ebru
+Z0 w1517255121
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dH:/ECE 371/ECE-371/Lab 3/New folder/task2
+Z4 8H:\ECE 371\ECE-371\Lab 3\New folder\task2\bru.vhd
+Z5 FH:\ECE 371\ECE-371\Lab 3\New folder\task2\bru.vhd
+l0
+L4
+V^RWo_m:R172n5H;m1hHiZ0
+!s100 ;:iK36FmXU<dES5fGcAGH3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1517255123
+!i10b 1
+Z8 !s108 1517255123.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\ECE 371\ECE-371\Lab 3\New folder\task2\bru.vhd|
+Z10 !s107 H:\ECE 371\ECE-371\Lab 3\New folder\task2\bru.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+Z13 DEx4 work 3 bru 0 22 ^RWo_m:R172n5H;m1hHiZ0
+l17
+L15
+VA<25:S17kOD=38NUZeNQ93
+!s100 N:T2Zcz05]4MX3YUead@G2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebru_golden
+Z14 w1391460126
+R1
+R2
+R3
+Z15 8H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_golden.vhd
+Z16 FH:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_golden.vhd
+l0
+L4
+Vk24zlHAgg3b3`gB]22JOH2
+!s100 UP]9?6[RRi9JgW55i8GI^2
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_golden.vhd|
+Z18 !s107 H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_golden.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+Z19 DEx4 work 10 bru_golden 0 22 k24zlHAgg3b3`gB]22JOH2
+l13
+L11
+VUJ4B1@K640^@6]9Az`Olk2
+!s100 Kh@I=bTMWY@O6H6`]XQ6=3
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ebru_tb
+Z20 w1391460238
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z22 8H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_tb.vhd
+Z23 FH:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_tb.vhd
+l0
+L5
+VjB2R6_^[^cBgKHbe2o>HS3
+!s100 2e3TY]Z8=^Z33o?ieN`5U3
+R6
+32
+Z24 !s110 1517255124
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_tb.vhd|
+Z26 !s107 H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R19
+R13
+R21
+R1
+R2
+Z27 DEx4 work 6 bru_tb 0 22 jB2R6_^[^cBgKHbe2o>HS3
+l29
+L8
+Z28 VDRUXN0gVlQgWF7ZLRgBFi3
+Z29 !s100 kZ>B<<][K=7;>L@4ehkf12
+R6
+32
+R24
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12

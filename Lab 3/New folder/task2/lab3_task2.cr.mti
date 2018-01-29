@@ -1,0 +1,28 @@
+{H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bru_tb
+-- Compiling architecture behavior of bru_tb
+-- Loading entity bru
+-- Loading entity bru_golden
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bru_golden
+-- Compiling architecture behavior of bru_golden
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 3/New folder/task2/bru.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:\ECE 371\ECE-371\Lab 3\New folder\task2\bru.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bru
+-- Compiling architecture behavior of bru
+
+} {} {}}

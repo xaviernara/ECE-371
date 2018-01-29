@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux_2to1 is 
+	generic( SIZE : positive := 3 );
+	port( w0, w1 : in  std_logic_vector(SIZE-1 downto 0);
+	      s      : in  std_logic;
+	      f       : out std_logic_vector(SIZE-1 downto 0) );
+end entity mux_2to1;
+
+architecture mixed of mux_2to1 is 
+begin
+   the_muxes : 
+   for i in SIZE-1 downto 0 generate
+      with s select
+	     f(i) <= w0(i) when '0',
+                 w1(i) when '1',
+				 '-'   when others;
+  end generate the_muxes;
+end architecture mixed;

@@ -1,0 +1,126 @@
+{H:/ECE 371/ECE-371/Lab 2/task 3/mux_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 3/mux_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package data_types
+-- Compiling entity mux_golden
+-- Compiling architecture behavior of mux_golden
+
+} {} {}} {{H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 09:28:18 on Jan 29,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package data_types
+End time: 09:28:18 on Jan 29,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package data_types
+
+} {} {}} {{H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 09:28:16 on Jan 29,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture mixed of mux_2to1
+End time: 09:28:16 on Jan 29,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture mixed of mux_2to1
+
+} {} {}} {{H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 09:28:16 on Jan 29,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4to1
+-- Compiling architecture mixed of mux_4to1
+-- Loading entity decode_2to4
+End time: 09:28:17 on Jan 29,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4to1
+-- Compiling architecture mixed of mux_4to1
+-- Loading entity decode_2to4
+
+} {} {}} {{H:/ECE 371/ECE-371/Lab 2/task 3/mux_golden.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 3/mux_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 09:28:17 on Jan 29,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/task 3/mux_golden.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package data_types
+-- Compiling entity mux_golden
+-- Compiling architecture behavior of mux_golden
+End time: 09:28:17 on Jan 29,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{H:/ECE 371/ECE-371/Lab 2/task 3/decode_2to4.vhd}} {1 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/Lab 2/task 3/decode_2to4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 09:28:17 on Jan 29,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/Lab 2/task 3/decode_2to4.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode_2to4
+-- Compiling architecture behavior of decode_2to4
+End time: 09:28:18 on Jan 29,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 2/task 3/decode_2to4.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 3/decode_2to4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode_2to4
+-- Compiling architecture behavior of decode_2to4
+
+} {} {}} {{H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1_tb.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 09:28:17 on Jan 29,2018
+vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package data_types
+-- Compiling entity mux_4to1_tb
+-- Compiling architecture behavior of mux_4to1_tb
+-- Loading entity mux_4to1
+-- Loading package MATH_REAL
+-- Loading entity mux_golden
+End time: 09:28:17 on Jan 29,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}}

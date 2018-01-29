@@ -22,10 +22,10 @@ architecture structure of decode_3to8 is
 
  --signal enable : std_logic_vector(1 downto 0);
  --enable : in std_logic;
-signal x : std_logic_vector(1 downto 0);
---signal x : std_logic_vector(3 downto 0);
-signal unused1 : std_logic;
-signal unused2 : std_logic;
+--signal x : std_logic_vector(1 downto 0);
+signal x : std_logic_vector(3 downto 0);
+constant unused1 : std_logic:='0';
+constant unused2 : std_logic:='0';
 
 
 begin
@@ -35,9 +35,10 @@ begin
 	
 	decode1_2to4 : entity work.decode_2to4(behavior)
 		--PORT MAP(w(1) => '0', w(0) => w(2) , en => en, y(3 downto 2) => x, y(1 downto 0)=> open );
-		PORT MAP(w(1) => '0', w(0) => w(2) , en => en, y(3 downto 2) => x, y(1 downto 0)=> y(5 downto 4) );
+		--PORT MAP(w(1) => '0', w(0) => w(2) , en => en, y(3 downto 2) => x, y(1)=>unused1, y(0)=>unused2);
 		--PORT MAP(w=> w(2), en => en, y(3) => x(1), y(0)=> x(0));
-		--PORT MAP(w=> w(2), en => en, y=>x);
+		PORT MAP(w=> '0'& w(2) , en => en, y=>x);
+		
 		
 
 	decode2_2to4 : entity work.decode_2to4(behavior)

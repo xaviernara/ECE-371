@@ -1,5 +1,5 @@
 Analysis & Synthesis report for decode_4to16
-Fri Jan 26 20:29:25 2018
+Sun Jan 28 21:26:13 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -10,7 +10,14 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "decode_3to8:decoder_3to8|decode_2to4:decode1_2to4"
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -33,22 +40,27 @@ refer to the applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                              ;
-+-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Fri Jan 26 20:29:25 2018           ;
-; Quartus Prime Version       ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
-; Revision Name               ; decode_4to16                                ;
-; Top-level Entity Name       ; decode_4to16                                ;
-; Family                      ; Cyclone V                                   ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sun Jan 28 21:26:12 2018       ;
+; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                   ; decode_4to16                                ;
+; Top-level Entity Name           ; decode_4to16                                ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 21                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -155,13 +167,111 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                            ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------+---------+
+; decode_1to2.vhd                  ; yes             ; User VHDL File  ; C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_1to2.vhd  ;         ;
+; ../task 1/decode_2to4.vhd        ; yes             ; User VHDL File  ; C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_2to4.vhd  ;         ;
+; ../task 1/decode_3to8.vhd        ; yes             ; User VHDL File  ; C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_3to8.vhd  ;         ;
+; decode_4to16.vhd                 ; yes             ; User VHDL File  ; C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------+---------+
+
+
++----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary              ;
++---------------------------------------------+------------+
+; Resource                                    ; Usage      ;
++---------------------------------------------+------------+
+; Estimate of Logic utilization (ALMs needed) ; 8          ;
+;                                             ;            ;
+; Combinational ALUT usage for logic          ; 16         ;
+;     -- 7 input functions                    ; 0          ;
+;     -- 6 input functions                    ; 0          ;
+;     -- 5 input functions                    ; 16         ;
+;     -- 4 input functions                    ; 0          ;
+;     -- <=3 input functions                  ; 0          ;
+;                                             ;            ;
+; Dedicated logic registers                   ; 0          ;
+;                                             ;            ;
+; I/O pins                                    ; 21         ;
+;                                             ;            ;
+; Total DSP Blocks                            ; 0          ;
+;                                             ;            ;
+; Maximum fan-out node                        ; w[1]~input ;
+; Maximum fan-out                             ; 16         ;
+; Total fan-out                               ; 117        ;
+; Average fan-out                             ; 2.02       ;
++---------------------------------------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                     ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+--------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name  ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+--------------+--------------+
+; |decode_4to16              ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 21   ; 0            ; |decode_4to16       ; decode_4to16 ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+--------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "decode_3to8:decoder_3to8|decode_2to4:decode1_2to4"                                     ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; w[1]    ; Input  ; Info     ; Stuck at GND                                                                        ;
+; y[3..2] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 16                          ;
+;     normal            ; 16                          ;
+;         5 data inputs ; 16                          ;
+; boundary_port         ; 21                          ;
+;                       ;                             ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 1.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Jan 26 20:29:06 2018
+    Info: Processing started: Sun Jan 28 21:25:39 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2_task2 -c decode_4to16
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -178,22 +288,20 @@ Info (12021): Found 2 design units, including 1 entities, in source file decode_
     Info (12022): Found design unit 1: decode_4to16-mixed File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 23
     Info (12023): Found entity 1: decode_4to16 File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 4
 Info (12127): Elaborating entity "decode_4to16" for the top level hierarchy
-Warning (10873): Using initial value X (don't care) for net "y[15..9]" at decode_4to16.vhd(7) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 7
-Warning (10873): Using initial value X (don't care) for net "y[0]" at decode_4to16.vhd(7) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 7
-Error (10028): Can't resolve multiple constant drivers for net "y[8]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10029): Constant driver at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "y[7]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "y[6]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "y[5]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "y[4]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "y[3]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "y[2]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "y[1]" at decode_4to16.vhd(57) File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 57
-Error (12153): Can't elaborate top-level user hierarchy
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 10 errors, 3 warnings
-    Error: Peak virtual memory: 689 megabytes
-    Error: Processing ended: Fri Jan 26 20:29:25 2018
-    Error: Elapsed time: 00:00:19
-    Error: Total CPU time (on all processors): 00:00:42
+Info (12129): Elaborating entity "decode_3to8" using architecture "A:structure" for hierarchy "decode_3to8:decoder_3to8" File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 41
+Info (12129): Elaborating entity "decode_2to4" using architecture "A:behavior" for hierarchy "decode_3to8:decoder_3to8|decode_2to4:decode1_2to4" File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 1/decode_3to8.vhd Line: 36
+Info (12129): Elaborating entity "decode_1to2" using architecture "A:behavior" for hierarchy "decode_1to2:decoder_1to2" File: C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 2/decode_4to16.vhd Line: 45
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 37 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 16 output pins
+    Info (21061): Implemented 16 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 710 megabytes
+    Info: Processing ended: Sun Jan 28 21:26:13 2018
+    Info: Elapsed time: 00:00:34
+    Info: Total CPU time (on all processors): 00:01:05
 
 

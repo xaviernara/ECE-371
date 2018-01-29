@@ -25,7 +25,7 @@ architecture mixed of decode_4to16 is
 --signal wy : std_logic_vector(15 downto 0);
  signal wy_1 : std_logic_vector(7 downto 0);
  signal wy_2 : std_logic_vector(1 downto 0);
- 
+ constant index :  integer := 2;
  
 begin
 
@@ -54,7 +54,7 @@ decoder_3to8 : entity work.decode_3to8(structure)
 combo_logic_level1 : for COL in 0 to 7 generate
 	combo_logic_level2 : for ROW in 0 to 1 generate
 	
-		y(COL+1)<=wy_1(COL) and wy_2(ROW);
+		y(index*COL+ROW)<=wy_1(COL) and wy_2(ROW);
   --y(i)<= wy_1(i) and wy_2(i);
 	
 	end generate combo_logic_level2;

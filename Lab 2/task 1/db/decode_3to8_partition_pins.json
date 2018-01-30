@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"partitions" : [
 		{
@@ -54,4 +55,62 @@
 			]
 		}
 	]
+=======
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "y[3]",
+					"strict" : false
+				},
+				{
+					"name" : "y[4]",
+					"strict" : false
+				},
+				{
+					"name" : "y[5]",
+					"strict" : false
+				},
+				{
+					"name" : "y[6]",
+					"strict" : false
+				},
+				{
+					"name" : "y[7]",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "w[2]",
+					"strict" : false
+				},
+				{
+					"name" : "w[0]",
+					"strict" : false
+				},
+				{
+					"name" : "w[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 }

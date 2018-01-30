@@ -1,3 +1,4 @@
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -21,7 +22,7 @@ end entity mux_4to1 ;
 
 --Use a combination of for generate and simple concurrent signal assignment statements to
 --model any additional combination logic.
---
+
 
 architecture mixed of mux_4to1 is
  

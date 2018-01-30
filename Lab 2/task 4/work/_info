@@ -11,6 +11,7 @@ dC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3
 Pdata_types
 Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+<<<<<<< HEAD
 Z2 w1517199044
 Z3 dH:/ECE 371/ECE-371/Lab 2/task 4
 8H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd
@@ -36,12 +37,40 @@ R1
 Z10 dC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4
 Z11 8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
 Z12 FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
+=======
+Z2 w1516406487
+Z3 dC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4
+8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd
+FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd
+l0
+L4
+VMh2T;m2J8N;E3Y@AAcL0c2
+!s100 >P0KCHXa2AT51YTe[DKoT2
+Z4 OV;C;10.5b;63
+33
+Z5 !s110 1516847332
+!i10b 1
+Z6 !s108 1516847332.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd|
+!s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd|
+!i113 1
+Z7 o-work work -2008 -explicit
+Z8 tExplicit 1 CvgOpt 0
+Edecode_2to4
+R2
+R0
+R1
+R3
+Z9 8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
+Z10 FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 l0
 L4
 V[TXmkfDFL6GhX[ZDVi0622
 !s100 O[:Vg27`TdA:4oocI?GDb2
 R4
 33
+<<<<<<< HEAD
 Z13 !s110 1516847332
 !i10b 1
 Z14 !s108 1516847332.000000
@@ -49,17 +78,31 @@ Z15 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/xav
 Z16 !s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd|
 !i113 1
 Z17 o-work work -2008 -explicit
+=======
+R5
+!i10b 1
+R6
+Z11 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd|
+Z12 !s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd|
+!i113 1
+R7
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 R8
 Abehavior
 R0
 R1
+<<<<<<< HEAD
 Z18 DEx4 work 11 decode_2to4 0 22 [TXmkfDFL6GhX[ZDVi0622
+=======
+Z13 DEx4 work 11 decode_2to4 0 22 [TXmkfDFL6GhX[ZDVi0622
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 l12
 L10
 VnhHlG9l;@4Mj9e8hSJi=o2
 !s100 MM;Saz=4@T6P5M<^bi[<Y2
 R4
 33
+<<<<<<< HEAD
 R13
 !i10b 1
 R14
@@ -80,11 +123,34 @@ l0
 L5
 VKL1Q8i1C1_fo>5i0YiA5c0
 !s100 Ni^JBLDB?l@9jegk4<^fO3
+=======
+R5
+!i10b 1
+R6
+R11
+R12
+!i113 1
+R7
+R8
+Emux_4to1
+Z14 w1516847252
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+R1
+R3
+Z16 8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd
+Z17 FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd
+l0
+L5
+VgYcc4OeBDQ46XBgj;CT9i2
+!s100 AGIGzl;>S_fhN6bo]9Sfj3
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 R4
 32
 R5
 !i10b 1
 R6
+<<<<<<< HEAD
 Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd|
 Z23 !s107 H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd|
 !i113 1
@@ -96,6 +162,19 @@ R19
 R0
 R1
 Z24 DEx4 work 8 mux_4to1 0 22 KL1Q8i1C1_fo>5i0YiA5c0
+=======
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd|
+Z19 !s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd|
+!i113 1
+Z20 o-work work -2002 -explicit
+R8
+Amixed
+R13
+R15
+R0
+R1
+Z21 DEx4 work 8 mux_4to1 0 22 gYcc4OeBDQ46XBgj;CT9i2
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 l31
 L26
 VIMY=zQjS92`TF>[`5ncPD3
@@ -105,6 +184,7 @@ R4
 R5
 !i10b 1
 R6
+<<<<<<< HEAD
 R22
 R23
 !i113 1
@@ -171,10 +251,79 @@ R28
 R29
 Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd|
 Z40 !s107 H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd|
+=======
+R18
+R19
+!i113 1
+R20
+R8
+Emux_8to1
+Z22 w1516847319
+R0
+R1
+R3
+Z23 8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd
+Z24 FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd
+l0
+L4
+VdkXY:Hf^VI@QLVcNV27Sj1
+!s100 QzNfKmHa]BTA31SH^EFdB3
+R4
+32
+!s110 1516847331
+!i10b 1
+Z25 !s108 1516847331.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd|
+Z27 !s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd|
+!i113 1
+R20
+R8
+Astructure
+R15
+R21
+R0
+R1
+Z28 DEx4 work 8 mux_8to1 0 22 dkXY:Hf^VI@QLVcNV27Sj1
+l32
+L22
+Vjz1H6ZeF161gK^B7QO[3]0
+!s100 bRPn<N[UJGmJoa:W=mi_G0
+R4
+32
+R5
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R20
+R8
+Emux_8to1_tb
+R2
+Z29 DPx4 work 10 data_types 0 22 Mh2T;m2J8N;E3Y@AAcL0c2
+R15
+R0
+R1
+R3
+Z30 8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd
+Z31 FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd
+l0
+L6
+VCAmjzaD2696=LKXM9k2U=1
+!s100 ;nhU:mSL0@;Q]R]5FiI^n1
+R4
+33
+R5
+!i10b 1
+R6
+Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd|
+Z33 !s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd|
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 !i113 1
 R7
 R8
 Abehavior
+<<<<<<< HEAD
 Z41 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 Z42 DEx4 work 10 mux_golden 0 22 PnPb;mMdhTI?m_mI9_B1^2
 R32
@@ -194,11 +343,33 @@ R28
 R29
 R39
 R40
+=======
+Z34 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z35 DEx4 work 10 mux_golden 0 22 ZR0P^E6UjLmDQX5mWWVRL0
+R28
+R29
+R15
+R0
+R1
+DEx4 work 11 mux_8to1_tb 0 22 CAmjzaD2696=LKXM9k2U=1
+l44
+L9
+Vi`Kh_66ZOjz_I?jFS2V:I1
+!s100 E:nOjUIj@Z3OLN4@>^0RY3
+R4
+33
+R5
+!i10b 1
+R6
+R32
+R33
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 !i113 1
 R7
 R8
 Emux_golden
 R2
+<<<<<<< HEAD
 R36
 R19
 R41
@@ -218,10 +389,32 @@ R5
 R6
 Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd|
 Z46 !s107 H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd|
+=======
+R29
+R15
+R34
+R0
+R1
+R3
+Z36 8C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd
+Z37 FC:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd
+l0
+L7
+VZR0P^E6UjLmDQX5mWWVRL0
+!s100 NIZ_zUzI_EPiE3Zhj9?542
+R4
+33
+R5
+!i10b 1
+R6
+Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd|
+Z39 !s107 C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd|
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 !i113 1
 R7
 R8
 Abehavior
+<<<<<<< HEAD
 R36
 R19
 R41
@@ -239,6 +432,25 @@ R5
 R6
 R45
 R46
+=======
+R29
+R15
+R34
+R0
+R1
+R35
+l18
+L16
+V<oHjMg_e2OlG`3E[L>XHB0
+!s100 a10e5jR=IEjnc8Z[0;PC51
+R4
+33
+R5
+!i10b 1
+R6
+R38
+R39
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05
 !i113 1
 R7
 R8

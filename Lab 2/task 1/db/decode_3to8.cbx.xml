@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="decode_3to8">
 	</PROJECT>
 </LOG_ROOT>
+=======
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="decode_3to8">
+	</PROJECT>
+</LOG_ROOT>
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05

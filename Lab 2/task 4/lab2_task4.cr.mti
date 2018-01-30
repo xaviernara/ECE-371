@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 09:50:33 on Jan 29,2018
@@ -129,3 +130,65 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading entity mux_4to1
 
 } {} {}}
+=======
+C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode_2to4
+-- Compiling architecture behavior of decode_2to4
+
+} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4to1
+-- Compiling architecture mixed of mux_4to1
+-- Loading entity decode_2to4
+
+} {} {}} C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package data_types
+-- Compiling entity mux_golden
+-- Compiling architecture behavior of mux_golden
+
+} {} {}} C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package data_types
+-- Compiling entity mux_8to1_tb
+-- Compiling architecture behavior of mux_8to1_tb
+-- Loading entity mux_8to1
+-- Loading package MATH_REAL
+-- Loading entity mux_golden
+
+} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_8to1
+-- Compiling architecture structure of mux_8to1
+-- Loading package NUMERIC_STD
+-- Loading entity mux_4to1
+
+} {} {}} C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package data_types
+
+} {} {}}
+>>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05

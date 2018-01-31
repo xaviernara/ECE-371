@@ -1,0 +1,63 @@
+{H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity log_bsru
+-- Compiling architecture structure of log_bsru
+-- Loading entity bru
+-- Loading entity right_fsru
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity log_bsru_golden
+-- Compiling architecture behavior of log_bsru_golden
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity log_bsru_tb
+-- Compiling architecture behavior of log_bsru_tb
+-- Loading entity log_bsru
+-- Loading entity log_bsru_golden
+** Error: H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd(56): (vcom-1484) Unknown formal identifier "CNT_SIZE".
+** Error: H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd(56): (vcom-1484) Unknown formal identifier "CNT_SIZE".
+** Error: H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd(78): (vcom-1484) Unknown formal identifier "CNT_SIZE".
+** Error: H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd(78): (vcom-1484) Unknown formal identifier "CNT_SIZE".
+** Error: H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd(100): (vcom-1484) Unknown formal identifier "CNT_SIZE".
+** Error: H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd(100): (vcom-1484) Unknown formal identifier "CNT_SIZE".
+** Error: H:/ECE 371/ECE-371/Lab 3/task 4/log_bsru_tb.vhd(182): VHDL Compiler exiting
+
+} {11.0 18.0} {}} {H:/ECE 371/ECE-371/Lab 3/task 2/bru.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/task 2/bru.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bru
+-- Compiling architecture behavior of bru
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 3/task 4/mux_2to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/task 4/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture mixed of mux_2to1
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 3/task 3/right_fsru.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 3/task 3/right_fsru.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity right_fsru
+-- Compiling architecture mixed of right_fsru
+-- Loading entity mux_2to1
+
+} {} {}}

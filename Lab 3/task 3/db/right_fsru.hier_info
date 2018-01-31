@@ -1,0 +1,29 @@
+|right_fsru
+A[0] => F.DATAA
+A[0] => mux_2to1:toplevel_mux.w0[0]
+A[1] => F.DATAB
+A[1] => F.DATAA
+A[2] => F.DATAB
+A[2] => F.DATAA
+A[3] => F.DATAB
+A[3] => F.DATAA
+en => F.OUTPUTSELECT
+en => F.OUTPUTSELECT
+en => F.OUTPUTSELECT
+en => F.OUTPUTSELECT
+shift => mux_2to1:toplevel_mux.s
+srin => mux_2to1:toplevel_mux.w1[0]
+F[0] <= F.DB_MAX_OUTPUT_PORT_TYPE
+F[1] <= F.DB_MAX_OUTPUT_PORT_TYPE
+F[2] <= F.DB_MAX_OUTPUT_PORT_TYPE
+F[3] <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|right_fsru|mux_2to1:toplevel_mux
+w0[0] => Selector0.IN3
+w1[0] => Selector0.IN4
+s => Selector0.IN5
+s => Selector0.IN1
+f[0] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

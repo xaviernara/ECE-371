@@ -3,11 +3,11 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity log_bsru_golden is
-   generic( SHMT : positive := 2 );
-   port( a                : in  std_logic_vector(2**SHMT-1 downto 0);
-         cnt              : in  std_logic_vector(SHMT-1 downto 0);
+   generic( CNT_SIZE : positive := 2 );
+   port( a                   : in  std_logic_vector(2**CNT_SIZE-1 downto 0);
+         cnt                 : in  std_logic_vector(CNT_SIZE-1 downto 0);
          arith, shift, right : in  std_logic;
-         f                : out std_logic_vector(2**SHMT-1 downto 0) );
+         f                   : out std_logic_vector(2**CNT_SIZE-1 downto 0) );
 end entity log_bsru_golden;
 
 architecture behavior of log_bsru_golden is

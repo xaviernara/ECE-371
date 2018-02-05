@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "z_GSE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "z_GSE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "z_GSE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NZVC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NZVC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "arith",
+					"strict" : false
+				},
+				{
+					"name" : "NZVC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NZVC[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

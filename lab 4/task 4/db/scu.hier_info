@@ -1,0 +1,44 @@
+|scu
+NZVC[0] => un_signed[0].IN0
+NZVC[0] => un_signed.IN0
+NZVC[0] => un_signed[2].IN0
+NZVC[1] => signedcom.IN0
+NZVC[1] => signedcom.IN0
+NZVC[1] => signedcom.IN0
+NZVC[1] => signedcom.IN0
+NZVC[2] => un_signed[0].IN1
+NZVC[2] => un_signed.IN1
+NZVC[2] => mux_2to1:mux2_1.w1[0]
+NZVC[2] => un_signed[2].IN1
+NZVC[2] => signedcom.IN1
+NZVC[2] => signedcom.IN1
+NZVC[2] => signedcom.IN1
+NZVC[2] => signedcom.IN1
+NZVC[3] => signedcom.IN1
+NZVC[3] => signedcom.IN1
+NZVC[3] => signedcom.IN1
+NZVC[3] => signedcom.IN1
+arith => mux_2to1:mux2_1.s
+z_GSE[0] <= mux_2to1:mux2_1.f[0]
+z_GSE[1] <= mux_2to1:mux2_1.f[1]
+z_GSE[2] <= mux_2to1:mux2_1.f[2]
+
+
+|scu|mux_2to1:mux2_1
+w0[0] => Selector2.IN3
+w0[1] => Selector1.IN3
+w0[2] => Selector0.IN3
+w1[0] => Selector2.IN4
+w1[1] => Selector1.IN4
+w1[2] => Selector0.IN4
+s => Selector0.IN5
+s => Selector1.IN5
+s => Selector2.IN5
+s => Selector0.IN1
+s => Selector1.IN1
+s => Selector2.IN1
+f[0] <= Selector2.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -25,7 +25,7 @@ first_reverse: entity work.bru(behavior)
 srin <= arith and a(2**CNT_SIZE-1) and right;
 intermediate : for i in 0 to CNT_SIZE-1 generate
 	
-	shift_rot: entity work.right_fsru(mixed)
+shift_rot: entity work.right_fsru(mixed)
 	generic map(2**CNT_SIZE, 2**(i))
 	port map(fsru_outs(i), cnt(i), shift, srin, fsru_outs(i+1));
 	end generate;

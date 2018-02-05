@@ -1,0 +1,148 @@
+|btc_8bit
+x[0] => cpc_2bit:cpc_2bit4.x[0]
+x[1] => cpc_2bit:cpc_2bit4.x[1]
+x[2] => cpc_2bit:cpc_2bit3.x[0]
+x[3] => cpc_2bit:cpc_2bit3.x[1]
+x[4] => cpc_2bit:cpc_2bit2.x[0]
+x[5] => cpc_2bit:cpc_2bit2.x[1]
+x[6] => cpc_2bit:cpc_2bit1.x[0]
+x[7] => cpc_2bit:cpc_2bit1.x[1]
+y[0] => cpc_2bit:cpc_2bit4.y[0]
+y[1] => cpc_2bit:cpc_2bit4.y[1]
+y[2] => cpc_2bit:cpc_2bit3.y[0]
+y[3] => cpc_2bit:cpc_2bit3.y[1]
+y[4] => cpc_2bit:cpc_2bit2.y[0]
+y[5] => cpc_2bit:cpc_2bit2.y[1]
+y[6] => cpc_2bit:cpc_2bit1.y[0]
+y[7] => cpc_2bit:cpc_2bit1.y[1]
+z_GSE[0] <= cpc_2bit:cpc_2bit7.z_GSE[0]
+z_GSE[1] <= cpc_2bit:cpc_2bit7.z_GSE[1]
+z_GSE[2] <= cpc_2bit:cpc_2bit7.z_GSE[2]
+
+
+|btc_8bit|cpc_2bit:cpc_2bit1
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => less[1].IN0
+x[1] => greater[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => greater[1].IN1
+y[1] => less[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|btc_8bit|cpc_2bit:cpc_2bit2
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => greater[1].IN0
+x[1] => less[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => less[1].IN1
+y[1] => greater[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|btc_8bit|cpc_2bit:cpc_2bit3
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => greater[1].IN0
+x[1] => less[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => less[1].IN1
+y[1] => greater[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|btc_8bit|cpc_2bit:cpc_2bit4
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => greater[1].IN0
+x[1] => less[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => less[1].IN1
+y[1] => greater[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|btc_8bit|cpc_2bit:cpc_2bit5
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => greater[1].IN0
+x[1] => less[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => less[1].IN1
+y[1] => greater[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|btc_8bit|cpc_2bit:cpc_2bit6
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => greater[1].IN0
+x[1] => less[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => less[1].IN1
+y[1] => greater[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|btc_8bit|cpc_2bit:cpc_2bit7
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => greater[1].IN0
+x[1] => less[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => less[1].IN1
+y[1] => greater[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+

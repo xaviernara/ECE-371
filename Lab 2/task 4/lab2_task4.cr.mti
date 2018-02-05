@@ -1,26 +1,12 @@
-<<<<<<< HEAD
-{{H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd}
+{H:/ECE 371/ECE-371/Lab 2/decode_2to4.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/decode_2to4.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 09:50:33 on Jan 29,2018
-vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package data_types
--- Compiling entity mux_8to1_tb
--- Compiling architecture behavior of mux_8to1_tb
--- Loading entity mux_8to1
-** Error: (vcom-13) Recompile work.mux_golden because work.data_types has changed.
-** Error (suppressible): H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd(70): (vcom-1195) Cannot find expanded name "work.mux_golden".
-** Error: H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd(70): Unknown expanded name.
-** Error (suppressible): H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd(103): (vcom-1195) Cannot find expanded name "work.mux_golden".
-** Error: H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd(103): Unknown expanded name.
-** Error: H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd(168): VHDL Compiler exiting
-End time: 09:50:34 on Jan 29,2018, Elapsed time: 0:00:01
-Errors: 6, Warnings: 0
+-- Compiling entity decode_2to4
+-- Compiling architecture behavior of decode_2to4
 
-} {13.0 14.0 15.0 16.0 17.0 19.0} {}} {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd}
+} {} {}} {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -33,21 +19,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package MATH_REAL
 -- Loading entity mux_golden
 
-} {} {}} {{H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 09:50:31 on Jan 29,2018
-vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package MATH_REAL
--- Loading package NUMERIC_STD
--- Loading package data_types
--- Compiling entity mux_golden
--- Compiling architecture behavior of mux_golden
-End time: 09:50:31 on Jan 29,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
 } {} {}} {H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/mux_golden.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -59,49 +30,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity mux_golden
 -- Compiling architecture behavior of mux_golden
 
-} {} {}} {{H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 09:50:31 on Jan 29,2018
-vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity mux_4to1
--- Compiling architecture mixed of mux_4to1
--- Loading entity decode_2to4
-End time: 09:50:31 on Jan 29,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {{H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 09:50:31 on Jan 29,2018
-vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/data_types_pkg.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling package data_types
-End time: 09:50:32 on Jan 29,2018, Elapsed time: 0:00:01
-Errors: 0, Warnings: 0
-
-} {} {}} {{H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 09:50:33 on Jan 29,2018
-vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_8to1
--- Compiling architecture structure of mux_8to1
-** Warning: H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd(30): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
--- Loading package NUMERIC_STD
--- Loading entity mux_4to1
-** Error: H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd(51): (vcom-1436) Actual expression (infix expression) of formal "S" is not globally static.
-** Error: H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd(53): VHDL Compiler exiting
-End time: 09:50:33 on Jan 29,2018, Elapsed time: 0:00:00
-Errors: 2, Warnings: 1
-
-} {13.0 15.0} {}} {H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd}
+} {} {}} {H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 4/mux_4to1.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -118,77 +47,4 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling package data_types
 
-} {} {}} {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd} {2 {vcom -work work -2002 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_8to1
--- Compiling architecture structure of mux_8to1
-** Warning: H:/ECE 371/ECE-371/Lab 2/task 4/mux_8to1.vhd(30): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
--- Loading package NUMERIC_STD
--- Loading entity mux_4to1
-
 } {} {}}
-=======
-C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/decode_2to4.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity decode_2to4
--- Compiling architecture behavior of decode_2to4
-
-} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 3/mux_4to1.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity mux_4to1
--- Compiling architecture mixed of mux_4to1
--- Loading entity decode_2to4
-
-} {} {}} C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_golden.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package MATH_REAL
--- Loading package NUMERIC_STD
--- Loading package data_types
--- Compiling entity mux_golden
--- Compiling architecture behavior of mux_golden
-
-} {} {}} C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/mux_8to1_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package data_types
--- Compiling entity mux_8to1_tb
--- Compiling architecture behavior of mux_8to1_tb
--- Loading entity mux_8to1
--- Loading package MATH_REAL
--- Loading entity mux_golden
-
-} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/Lab 2/task 4/mux_8to1.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_8to1
--- Compiling architecture structure of mux_8to1
--- Loading package NUMERIC_STD
--- Loading entity mux_4to1
-
-} {} {}} C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/data_types_pkg.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling package data_types
-
-} {} {}}
->>>>>>> 5e6ea64a5fd18b0da54a6bdcdd8534fa87e3ee05

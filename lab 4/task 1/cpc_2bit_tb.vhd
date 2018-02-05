@@ -31,7 +31,7 @@ begin
   generic map (SIZE => SIZE_ONE)
   port map (  x => std_logic_vector(x_stim1),
               y => std_logic_vector(y_stim1),
-              signed_ops => SIGNED_ONE_STL,
+              arith => SIGNED_ONE_STL,
               cinE => '1', 
               cinG => '0', 
               cinS => '0',
@@ -51,7 +51,7 @@ begin
   generic map (SIZE => SIZE_ONE)
   port map (  x => std_logic_vector(x_stim1),
               y => std_logic_vector(y_stim1),
-              signed_ops => SIGNED_TWO_STL,
+              arith => SIGNED_TWO_STL,
               cinE => '1', 
               cinG => '0', 
               cinS => '0',

@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+{C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/btc_32bit_tb.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/btc_32bit_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity btc_32bit_tb
+-- Compiling architecture behavior of btc_32bit_tb
+-- Loading entity compare_golden
+-- Loading entity btc_32bit
+
+} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/compare_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/compare_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity compare_golden
+-- Compiling architecture golden of compare_golden
+
+} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 1/cpc_2bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 1/cpc_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpc_2bit
+-- Compiling architecture dataflow of cpc_2bit
+
+} {} {}}
+=======
+{C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/btc_32bit_tb.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/btc_32bit_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity btc_32bit_tb
+-- Compiling architecture behavior of btc_32bit_tb
+-- Loading entity compare_golden
+-- Loading entity btc_32bit
+
+} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/compare_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 3/compare_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity compare_golden
+-- Compiling architecture golden of compare_golden
+
+} {} {}} {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 1/cpc_2bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/ECE-371-master/ECE-371-master/lab 4/task 1/cpc_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpc_2bit
+-- Compiling architecture dataflow of cpc_2bit
+
+} {} {}}
+>>>>>>> 69632eae6f22b9232cdd19c08328f81436b79a3d

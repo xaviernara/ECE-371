@@ -36,6 +36,7 @@
 		}
 	]
 =======
+<<<<<<< HEAD
 {
 	"partitions" : [
 		{
@@ -72,5 +73,43 @@
 			]
 		}
 	]
+=======
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "z_GSE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "z_GSE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "z_GSE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "x[1]",
+					"strict" : false
+				},
+				{
+					"name" : "y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x[0]",
+					"strict" : false
+				},
+				{
+					"name" : "y[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+>>>>>>> b9c7629463188eb68b5e1250c466304018faba1b
 >>>>>>> 69632eae6f22b9232cdd19c08328f81436b79a3d
 }

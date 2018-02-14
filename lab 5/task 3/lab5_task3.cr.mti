@@ -1,0 +1,199 @@
+{{C:/Users/xaviernara/Desktop/lab 5/task 1/clg_2bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/task 1/clg_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 23:29:58 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/task 1/clg_2bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_2bit
+-- Compiling architecture dataflow of clg_2bit
+End time: 23:29:58 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xaviernara/Desktop/lab 5/task 1/cla_8bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/task 1/cla_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 23:29:59 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/task 1/cla_8bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_8bit
+-- Compiling architecture structure of cla_8bit
+-- Loading entity cla_2bit
+-- Loading entity clg_2bit
+End time: 23:29:59 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xaviernara/Desktop/lab 5/task 1/cla_2bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/lab 5/task 1/cla_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_2bit
+-- Compiling architecture mixed of cla_2bit
+-- Loading entity clg_2bit
+
+} {} {}} {{C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 23:30:00 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity csla_tb
+-- Compiling architecture behavior of csla_tb
+** Error: (vcom-11) Could not find work.adder_golden.
+** Error (suppressible): C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(48): (vcom-1195) Cannot find expanded name "work.adder_golden".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(48): Unknown expanded name.
+-- Loading entity csla
+** Error: (vcom-11) Could not find work.adder_golden.
+** Error (suppressible): C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(68): (vcom-1195) Cannot find expanded name "work.adder_golden".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(68): Unknown expanded name.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(94): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(94): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(94): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(95): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(95): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(95): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(95): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(96): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(96): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(96): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(96): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(97): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(97): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(97): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(97): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(98): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(98): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(98): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(103): (vcom-1136) Unknown identifier "to_string".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(103): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(103): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(117): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(117): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(117): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(118): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(118): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(118): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(118): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(119): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(119): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(119): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(119): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(120): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(120): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(120): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(120): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(121): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(121): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(121): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(140): (vcom-1136) Unknown identifier "to_string".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(140): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(140): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(140): (vcom-1136) Unknown identifier "to_string".
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(140): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(140): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd(143): VHDL Compiler exiting
+End time: 23:30:00 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 52, Warnings: 0
+
+} {12.0 13.0 14.0 15.0 16.0 17.0 18.0 65.0} {}} {C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/lab 5/task 3/csla_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity csla_tb
+-- Compiling architecture behavior of csla_tb
+-- Loading entity adder_golden
+-- Loading entity csla
+
+} {} {}} {{C:/Users/xaviernara/Desktop/lab 5/task 3/csla.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/task 3/csla.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 23:29:59 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/task 3/csla.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity csla
+-- Compiling architecture structure of csla
+-- Loading entity cla_8bit
+-- Loading entity mux_2to1
+End time: 23:29:59 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xaviernara/Desktop/lab 5/task 3/csla.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/lab 5/task 3/csla.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity csla
+-- Compiling architecture structure of csla
+-- Loading entity cla_8bit
+-- Loading entity mux_2to1
+
+} {} {}} {C:/Users/xaviernara/Desktop/lab 5/task 1/cla_8bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/lab 5/task 1/cla_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_8bit
+-- Compiling architecture structure of cla_8bit
+-- Loading entity cla_2bit
+-- Loading entity clg_2bit
+
+} {} {}} {C:/Users/xaviernara/Desktop/lab 5/task 1/clg_2bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/lab 5/task 1/clg_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_2bit
+-- Compiling architecture dataflow of clg_2bit
+
+} {} {}} {C:/Users/xaviernara/Desktop/lab 5/task 1/adder_golden.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xaviernara/Desktop/lab 5/task 1/adder_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder_golden
+-- Compiling architecture golden of adder_golden
+
+} {} {}} {{C:/Users/xaviernara/Desktop/lab 5/task 1/cla_2bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/task 1/cla_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 23:29:59 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/task 1/cla_2bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_2bit
+-- Compiling architecture mixed of cla_2bit
+-- Loading entity clg_2bit
+End time: 23:29:59 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xaviernara/Desktop/lab 5/task 3/mux_2to1.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/task 3/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 23:29:58 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/task 3/mux_2to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture mixed of mux_2to1
+End time: 23:29:58 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xaviernara/Desktop/lab 5/task 3/mux_2to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xaviernara/Desktop/lab 5/task 3/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture mixed of mux_2to1
+
+} {} {}}

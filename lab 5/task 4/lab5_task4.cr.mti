@@ -1,0 +1,75 @@
+{H:/ECE 371/ECE-371/lab 5/task 1/clg_2bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/clg_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_2bit
+-- Compiling architecture dataflow of clg_2bit
+
+} {} {}} {H:/ECE 371/ECE-371/lab 5/task 4/asu_32bit.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 4/asu_32bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity asu_32bit
+-- Compiling architecture mixed of asu_32bit
+-- Loading entity cla_32bit
+** Error (suppressible): H:/ECE 371/ECE-371/lab 5/task 4/asu_32bit.vhd(42): (vcom-1272) Length of formal "sum" is 8; length of actual is 32.
+** Error: H:/ECE 371/ECE-371/lab 5/task 4/asu_32bit.vhd(44): VHDL Compiler exiting
+
+} {10.0 11.0} {}} {H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_2bit
+-- Compiling architecture mixed of cla_2bit
+-- Loading entity clg_2bit
+
+} {} {}} {H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Lab 1/Task 1/clg_4bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_4bit
+-- Compiling architecture dataflow of clg_4bit
+
+} {} {}} {H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_32bit
+-- Compiling architecture structure of cla_32bit
+-- Loading entity cla_8bit
+-- Loading entity clg_4bit
+** Error: H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd(63): (vcom-1167) Index value 8 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 7 downto 0.
+** Error: H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd(63): (vcom-1167) Index value 15 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 7 downto 0.
+** Error: H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd(67): (vcom-1167) Index value 16 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 7 downto 0.
+** Error: H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd(67): (vcom-1167) Index value 23 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 7 downto 0.
+** Error: H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd(71): (vcom-1167) Index value 24 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 7 downto 0.
+** Error: H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd(71): (vcom-1167) Index value 31 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 7 downto 0.
+** Error: H:/ECE 371/ECE-371/lab 5/task 2/cla_32bit.vhd(79): VHDL Compiler exiting
+
+} {10.0 17.0} {}} {H:/ECE 371/ECE-371/lab 5/task 4/asu_golden.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 4/asu_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity asu_golden
+-- Compiling architecture golden of asu_golden
+
+} {} {}} {H:/ECE 371/ECE-371/lab 5/task 4/asu_32bit_tb.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 4/asu_32bit_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity asu_32bit_tb
+-- Compiling architecture behavior of asu_32bit_tb
+-- Loading entity asu_golden
+-- Loading entity asu_32bit
+
+} {} {}}

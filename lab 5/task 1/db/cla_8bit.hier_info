@@ -1,0 +1,233 @@
+|cla_8bit
+x[0] => cla_2bit:cla_2bit1.x[0]
+x[1] => cla_2bit:cla_2bit1.x[1]
+x[2] => cla_2bit:cla_2bit2.x[0]
+x[3] => cla_2bit:cla_2bit2.x[1]
+x[4] => cla_2bit:cla_2bit3.x[0]
+x[5] => cla_2bit:cla_2bit3.x[1]
+x[6] => cla_2bit:cla_2bit4.x[0]
+x[7] => cla_2bit:cla_2bit4.x[1]
+y[0] => cla_2bit:cla_2bit1.y[0]
+y[1] => cla_2bit:cla_2bit1.y[1]
+y[2] => cla_2bit:cla_2bit2.y[0]
+y[3] => cla_2bit:cla_2bit2.y[1]
+y[4] => cla_2bit:cla_2bit3.y[0]
+y[5] => cla_2bit:cla_2bit3.y[1]
+y[6] => cla_2bit:cla_2bit4.y[0]
+y[7] => cla_2bit:cla_2bit4.y[1]
+cin => cla_2bit:cla_2bit1.cin
+cin => clg_2bit:clg_2bit1.cin
+cin => clg_2bit:clg_2bit3.cin
+sum[0] <= cla_2bit:cla_2bit1.sum[0]
+sum[1] <= cla_2bit:cla_2bit1.sum[1]
+sum[2] <= cla_2bit:cla_2bit2.sum[0]
+sum[3] <= cla_2bit:cla_2bit2.sum[1]
+sum[4] <= cla_2bit:cla_2bit3.sum[0]
+sum[5] <= cla_2bit:cla_2bit3.sum[1]
+sum[6] <= cla_2bit:cla_2bit4.sum[0]
+sum[7] <= cla_2bit:cla_2bit4.sum[1]
+cout <= clg_2bit:clg_2bit2.carries[2]
+GG <= clg_2bit:clg_2bit3.GG
+GA <= clg_2bit:clg_2bit3.GA
+
+
+|cla_8bit|cla_2bit:cla_2bit1
+x[0] => g[0].IN0
+x[0] => a[0].IN0
+x[0] => p[0].IN0
+x[1] => g[1].IN0
+x[1] => a[1].IN0
+x[1] => p[1].IN0
+y[0] => g[0].IN1
+y[0] => a[0].IN1
+y[0] => p[0].IN1
+y[1] => g[1].IN1
+y[1] => a[1].IN1
+y[1] => p[1].IN1
+cin => sum.IN1
+cin => clg_2bit:cla.cin
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= clg_2bit:cla.carries[2]
+GG <= clg_2bit:cla.GG
+GA <= clg_2bit:cla.GA
+
+
+|cla_8bit|cla_2bit:cla_2bit1|clg_2bit:cla
+g[0] => carries.IN1
+g[0] => GGint.IN0
+g[1] => GGint.IN1
+a[0] => carries.IN0
+a[0] => GAint.IN0
+a[1] => GGint.IN1
+a[1] => GAint.IN1
+cin => carries.IN1
+cin => carries.IN1
+carries[1] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+carries[2] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+GG <= GGint.DB_MAX_OUTPUT_PORT_TYPE
+GA <= GAint.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_8bit|cla_2bit:cla_2bit2
+x[0] => g[0].IN0
+x[0] => a[0].IN0
+x[0] => p[0].IN0
+x[1] => g[1].IN0
+x[1] => a[1].IN0
+x[1] => p[1].IN0
+y[0] => g[0].IN1
+y[0] => a[0].IN1
+y[0] => p[0].IN1
+y[1] => g[1].IN1
+y[1] => a[1].IN1
+y[1] => p[1].IN1
+cin => sum.IN1
+cin => clg_2bit:cla.cin
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= clg_2bit:cla.carries[2]
+GG <= clg_2bit:cla.GG
+GA <= clg_2bit:cla.GA
+
+
+|cla_8bit|cla_2bit:cla_2bit2|clg_2bit:cla
+g[0] => carries.IN1
+g[0] => GGint.IN0
+g[1] => GGint.IN1
+a[0] => carries.IN0
+a[0] => GAint.IN0
+a[1] => GGint.IN1
+a[1] => GAint.IN1
+cin => carries.IN1
+cin => carries.IN1
+carries[1] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+carries[2] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+GG <= GGint.DB_MAX_OUTPUT_PORT_TYPE
+GA <= GAint.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_8bit|cla_2bit:cla_2bit3
+x[0] => g[0].IN0
+x[0] => a[0].IN0
+x[0] => p[0].IN0
+x[1] => g[1].IN0
+x[1] => a[1].IN0
+x[1] => p[1].IN0
+y[0] => g[0].IN1
+y[0] => a[0].IN1
+y[0] => p[0].IN1
+y[1] => g[1].IN1
+y[1] => a[1].IN1
+y[1] => p[1].IN1
+cin => sum.IN1
+cin => clg_2bit:cla.cin
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= clg_2bit:cla.carries[2]
+GG <= clg_2bit:cla.GG
+GA <= clg_2bit:cla.GA
+
+
+|cla_8bit|cla_2bit:cla_2bit3|clg_2bit:cla
+g[0] => carries.IN1
+g[0] => GGint.IN0
+g[1] => GGint.IN1
+a[0] => carries.IN0
+a[0] => GAint.IN0
+a[1] => GGint.IN1
+a[1] => GAint.IN1
+cin => carries.IN1
+cin => carries.IN1
+carries[1] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+carries[2] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+GG <= GGint.DB_MAX_OUTPUT_PORT_TYPE
+GA <= GAint.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_8bit|cla_2bit:cla_2bit4
+x[0] => g[0].IN0
+x[0] => a[0].IN0
+x[0] => p[0].IN0
+x[1] => g[1].IN0
+x[1] => a[1].IN0
+x[1] => p[1].IN0
+y[0] => g[0].IN1
+y[0] => a[0].IN1
+y[0] => p[0].IN1
+y[1] => g[1].IN1
+y[1] => a[1].IN1
+y[1] => p[1].IN1
+cin => sum.IN1
+cin => clg_2bit:cla.cin
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= clg_2bit:cla.carries[2]
+GG <= clg_2bit:cla.GG
+GA <= clg_2bit:cla.GA
+
+
+|cla_8bit|cla_2bit:cla_2bit4|clg_2bit:cla
+g[0] => carries.IN1
+g[0] => GGint.IN0
+g[1] => GGint.IN1
+a[0] => carries.IN0
+a[0] => GAint.IN0
+a[1] => GGint.IN1
+a[1] => GAint.IN1
+cin => carries.IN1
+cin => carries.IN1
+carries[1] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+carries[2] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+GG <= GGint.DB_MAX_OUTPUT_PORT_TYPE
+GA <= GAint.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_8bit|clg_2bit:clg_2bit1
+g[0] => carries.IN1
+g[0] => GGint.IN0
+g[1] => GGint.IN1
+a[0] => carries.IN0
+a[0] => GAint.IN0
+a[1] => GGint.IN1
+a[1] => GAint.IN1
+cin => carries.IN1
+cin => carries.IN1
+carries[1] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+carries[2] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+GG <= GGint.DB_MAX_OUTPUT_PORT_TYPE
+GA <= GAint.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_8bit|clg_2bit:clg_2bit2
+g[0] => carries.IN1
+g[0] => GGint.IN0
+g[1] => GGint.IN1
+a[0] => carries.IN0
+a[0] => GAint.IN0
+a[1] => GGint.IN1
+a[1] => GAint.IN1
+cin => carries.IN1
+cin => carries.IN1
+carries[1] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+carries[2] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+GG <= GGint.DB_MAX_OUTPUT_PORT_TYPE
+GA <= GAint.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla_8bit|clg_2bit:clg_2bit3
+g[0] => carries.IN1
+g[0] => GGint.IN0
+g[1] => GGint.IN1
+a[0] => carries.IN0
+a[0] => GAint.IN0
+a[1] => GGint.IN1
+a[1] => GAint.IN1
+cin => carries.IN1
+cin => carries.IN1
+carries[1] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+carries[2] <= carries.DB_MAX_OUTPUT_PORT_TYPE
+GG <= GGint.DB_MAX_OUTPUT_PORT_TYPE
+GA <= GAint.DB_MAX_OUTPUT_PORT_TYPE
+
+

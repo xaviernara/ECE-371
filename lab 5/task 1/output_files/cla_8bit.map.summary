@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Feb 12 13:06:09 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : cla_8bit
+Top-level Entity Name : cla_8bit
+Family : Cyclone IV E
+Total logic elements : 29
+    Total combinational functions : 29
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 28
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

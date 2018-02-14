@@ -1,0 +1,149 @@
+{{C:/Users/xaviernara/Desktop/lab 5/adder_golden.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/adder_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 19:29:48 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/adder_golden.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder_golden
+-- Compiling architecture golden of adder_golden
+End time: 19:29:48 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {H:/ECE 371/ECE-371/lab 5/task 1/clg_2bit.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/clg_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {H:/ECE 371/ECE-371/lab 5/task 1/clg_golden.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/clg_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {{C:/Users/xaviernara/Desktop/lab 5/cla_2bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/cla_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 19:29:49 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/cla_2bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_2bit
+-- Compiling architecture mixed of cla_2bit
+-- Loading entity clg_2bit
+End time: 19:29:49 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/lab 5/task 1/adder_golden.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/adder_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {{C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 19:29:50 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cla_8bit_tb
+-- Compiling architecture behavior of cla_8bit_tb
+-- Loading entity adder_golden
+-- Loading entity clg_golden
+-- Loading entity cla_8bit
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(61): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(61): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(61): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(62): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(62): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(62): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(62): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(63): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(63): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(63): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(63): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(64): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(64): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(64): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(64): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(65): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(65): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(65): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(69): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(69): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(69): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(70): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(70): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(70): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(70): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(71): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(71): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(71): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(71): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(72): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(72): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(72): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(72): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(73): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(73): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(73): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(78): (vcom-1136) Unknown identifier "to_string".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(78): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(78): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit_tb.vhd(82): VHDL Compiler exiting
+End time: 19:29:50 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 40, Warnings: 0
+
+} {14.0 54.0} {}} {H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit_tb.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {{C:/Users/xaviernara/Desktop/lab 5/clg_2bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/clg_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 19:29:48 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/clg_2bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_2bit
+-- Compiling architecture dataflow of clg_2bit
+End time: 19:29:48 on Feb 09,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xaviernara/Desktop/lab 5/clg_golden.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/clg_golden.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 19:29:48 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/clg_golden.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_golden
+-- Compiling architecture golden of clg_golden
+End time: 19:29:49 on Feb 09,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xaviernara/Desktop/lab 5/cla_8bit.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/xaviernara/Desktop/lab 5/cla_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 19:29:49 on Feb 09,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xaviernara/Desktop/lab 5/cla_8bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_8bit
+-- Compiling architecture structure of cla_8bit
+-- Loading entity cla_2bit
+-- Loading entity clg_2bit
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit.vhd(48): (vcom-1484) Unknown formal identifier "carry".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit.vhd(51): (vcom-1484) Unknown formal identifier "carry".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit.vhd(54): (vcom-1484) Unknown formal identifier "carry".
+** Error: C:/Users/xaviernara/Desktop/lab 5/cla_8bit.vhd(57): VHDL Compiler exiting
+End time: 19:29:50 on Feb 09,2018, Elapsed time: 0:00:01
+Errors: 4, Warnings: 0
+
+} {12.0 16.0} {}}

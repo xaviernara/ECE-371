@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |cpc_2bit
 x[0] => equal.IN0
 x[0] => greater[0].IN0
@@ -16,3 +17,23 @@ z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
 z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
 
 
+=======
+|cpc_2bit
+x[0] => equal.IN0
+x[0] => greater[0].IN0
+x[0] => less[0].IN0
+x[1] => equal.IN0
+x[1] => greater[1].IN0
+x[1] => less[1].IN0
+y[0] => equal.IN1
+y[0] => less[0].IN1
+y[0] => greater[0].IN1
+y[1] => equal.IN1
+y[1] => less[1].IN1
+y[1] => greater[1].IN1
+z_GSE[0] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[1] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+z_GSE[2] <= z_GSE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+>>>>>>> 69632eae6f22b9232cdd19c08328f81436b79a3d

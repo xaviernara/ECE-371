@@ -29,17 +29,14 @@ begin
 condition <= (others => sub);
 yInversion <= y xor condition;
 
-
 NZVC(2) <= '1' when yInversion = x else '0';
-
 NZVC(3) <= arith and result(31);
-NZVC(1) <= ((y(31) xor overflow xor x(31) xor result(31)) and arith and (not sub)) or
-		((result(31) xor overflow  xor (x(31) xnor y(31))) and arith and sub );
+NZVC(1) <= ((y(31) xor overflow xor x(31) xor result(31)) and arith and (not sub)) or((result(31) xor overflow  xor (x(31) xnor y(31))) and arith and sub );
 NZVC(0) <= overflow and (not arith);
 
 cla32: entity work.cla_32bit(structure)
-	--port map(x =>x, y=>yInversion, cin=>sub, sum=> result, cout=>overflow, GG=>open, GA=>open);
-port map(x, yInversion, sub, result, overflow, open,open);
+port map(x =>x, y=>yInversion, cin=>sub, sum=> result, cout=>overflow, GG=>open, GA=>open);
+--port map(x, yInversion, sub, result, overflow, open,open);
 
 end architecture mixed;
 

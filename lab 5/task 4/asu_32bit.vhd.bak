@@ -38,6 +38,8 @@ NZVC(1) <= ((y(31) xor overflow xor x(31) xor result(31)) and arith and (not sub
 NZVC(0) <= overflow and (not arith);
 
 cla32: entity work.cla_32bit(structure)
-	port map(x =>x, y=>yInversion, cin=>sub, sum=> result, cout=>overflow, GG=>open, GA=>open);
+	--port map(x =>x, y=>yInversion, cin=>sub, sum=> result, cout=>overflow, GG=>open, GA=>open);
+port map(x, yInversion, sub, result, overflow, open,open);
+
 end architecture mixed;
 

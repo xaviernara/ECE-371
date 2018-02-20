@@ -1,0 +1,74 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dH:/ECE 371/ECE-371/lab 6/task 1
+Epride_alu_behave
+Z0 w1519090673
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dH:/ECE 371/ECE-371/lab 6/task 2
+Z5 8H:\ECE 371\ECE-371\lab 6\task 2\pride_alu_behave.vhd
+Z6 FH:\ECE 371\ECE-371\lab 6\task 2\pride_alu_behave.vhd
+l0
+L5
+VFMH?kb5CNgS2hLN;Mo[jP3
+!s100 RXO7kicTKiWUTdSX2[FST1
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1519090749
+!i10b 1
+Z9 !s108 1519090749.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:\ECE 371\ECE-371\lab 6\task 2\pride_alu_behave.vhd|
+Z11 !s107 H:\ECE 371\ECE-371\lab 6\task 2\pride_alu_behave.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+R3
+DEx4 work 16 pride_alu_behave 0 22 FMH?kb5CNgS2hLN;Mo[jP3
+l33
+L13
+V3[^3NMnagfjgKA]icWF``3
+!s100 9ld8A:[;;Oa>A<;ZI5ik10
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Epride_alu_behave_tb
+w1488206170
+DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R1
+R2
+R3
+R4
+8H:/ECE 371/ECE-371/lab 6/task 2/pride_alu_behave_tb.vhd
+FH:/ECE 371/ECE-371/lab 6/task 2/pride_alu_behave_tb.vhd
+l0
+L6
+VU3;Kbn8I7COPX=0W5ZA0c0
+!s100 8O@ZIA9d^BDdR8Dk^of<C0
+R7
+33
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 6/task 2/pride_alu_behave_tb.vhd|
+!s107 H:/ECE 371/ECE-371/lab 6/task 2/pride_alu_behave_tb.vhd|
+!i113 1
+R12
+R13

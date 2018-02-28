@@ -16,8 +16,12 @@ type flags_type is array(0 to 12) of std_logic_vector(3 downto 0);
 signal results : results_type;
 signal flags   : flags_type;
 signal compA, compB  : std_logic_vector(2 downto 0);
+--signal result :std_logic_vector(31 downto 0);
 
 begin
+
+--result<= result;
+
 blu_0: entity work.blu(behavior)
 generic map(32)
 	port map(x, y, "00", results(0));

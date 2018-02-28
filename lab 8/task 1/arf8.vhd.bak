@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity arf8 is
+	generic( SIZE : positive := 4; 
+		R0_HW : boolean := true);
+	port(   clk  : in  std_logic;
+	        rst : in  std_logic;
+		rdAddr1 : in std_logic_vector(2 downto 0);
+		rdAddr2 : in std_logic_vector(2 downto 0);
+		wrAddr : in std_logic_vector(2 downto 0);
+		wrEn : in std_logic;
+		wrData : in std_logic_vector(SIZE-1 downto 0);
+		rdData1 : out std_logic_vector(SIZE-1 downto 0);
+		rdData2 : out std_logic_vector(SIZE-1 downto 0));
+end entity arf8;
+
+architecture structural of arf8 is
+	signal sig_ClkEn : std_logic_vector(7 downto 0);
+	type Qs is array(7 downto 0) of std_logic_vector(SIZE-1 downto 0);
+	signal sig_Qs : Qs;
+	signal sig_rdAddr_00 : std_logic_vector(7 downto 0);
+	--signal sig_R0_HW : std_logic ;
+begin
+
+	write_logic : entity work.dec_3to8(behavior)
+		port map(w => wrAddr, y => sig_ClkEn, en => WrEn);
+
+	flops : for i in 1 to 7 generate
+		flop : entity work.dflop(behavior) generic map(SIZE=>SIZE)
+		port map(clk => clk, rst => rst, 
+			clken => sig_ClkEn(i), din => wrData, q => sig_Qs(i));
+	end generate;
+
+	R0_HW_false : if (R0_HW = false) generate
+		flop_0 : entity work.dflop(behavior) generic map(SIZE=>SIZE)
+		port map(clk => clk, rst => rst, 
+			clken => sig_ClkEn(0), din => wrData, q => sig_Qs(0));
+	end generate;
+	R0_HW_true : if (R0_HW = true) generate
+		sig_Qs(0) <= (others=>'0');
+	end generate;
+
+
+	mux1 : entity work.mux_8to1(behavior)
+	port map(w0=>sig_Qs(0),w1=>sig_Qs(1),w2=>sig_Qs(2),w3=>sig_Qs(3),w4=>sig_Qs(4),
+		w5=>sig_Qs(5),w6=>sig_Qs(6),w7=>sig_Qs(7),sel=>rdAddr1,f=>rdData1);
+
+	mux2 : entity work.mux_8to1(behavior)
+	port map(w0=>sig_Qs(0),w1=>sig_Qs(1),w2=>sig_Qs(2),w3=>sig_Qs(3),w4=>sig_Qs(4),
+		w5=>sig_Qs(5),w6=>sig_Qs(6),w7=>sig_Qs(7),sel=>rdAddr2,f=>rdData2);
+end architecture structural;

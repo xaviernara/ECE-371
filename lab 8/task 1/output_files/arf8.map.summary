@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Feb 28 15:52:22 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : arf8
+Top-level Entity Name : arf8
+Family : Cyclone IV E
+Total logic elements : 73
+    Total combinational functions : 45
+    Dedicated logic registers : 28
+Total registers : 28
+Total pins : 24
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

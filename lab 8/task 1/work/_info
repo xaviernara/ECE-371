@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera17
+Earf8
+Z0 w1519845348
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dH:/ECE 371/ECE-371/lab 8/task 1
+Z5 8H:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd
+Z6 FH:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd
+l0
+L5
+VEDjkL6d>GKJ6`D`7[8`[m1
+!s100 930j_T_MGV0gEnZU>U`QV1
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1519845978
+!i10b 1
+Z9 !s108 1519845977.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd|
+Z11 !s107 H:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Astructure
+Z14 DEx4 work 8 mux_8to1 0 22 I5gflT^Z>_jIc8kYCS2XE1
+Z15 DEx4 work 8 dec_3to8 0 22 4=bnKXOF8C=B2`ag`Th<K2
+Z16 DEx4 work 5 dflop 0 22 5KJbdi7B^:zbZPJX<c8`13
+R1
+R2
+R3
+DEx4 work 4 arf8 0 22 EDjkL6d>GKJ6`D`7[8`[m1
+l20
+L14
+VW[Yh;PS`V0XHf_Ie>iA>F1
+!s100 <I>Fn8Sok6l>F8^iPZIVX0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edec_3to8
+R0
+R2
+R3
+R4
+Z17 8H:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd
+Z18 FH:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd
+l0
+L4
+V4=bnKXOF8C=B2`ag`Th<K2
+!s100 oLoZ17@?NlATOL0K?=5Jk0
+R7
+33
+Z19 !s110 1519845976
+!i10b 1
+Z20 !s108 1519845976.000000
+Z21 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd|
+Z22 !s107 H:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R15
+l12
+L10
+VTHDbdk9457diKMDjYXA<73
+!s100 4OBiF:;5iJ^<^naoE5<hb1
+R7
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Edflop
+R0
+R2
+R3
+R4
+Z23 8H:/ECE 371/ECE-371/lab 8/task 1/dflop.vhd
+Z24 FH:/ECE 371/ECE-371/lab 8/task 1/dflop.vhd
+l0
+L4
+V5KJbdi7B^:zbZPJX<c8`13
+!s100 m]43cVCjb8_l;oV5_Gd?<0
+R7
+33
+Z25 !s110 1519845977
+!i10b 1
+R20
+Z26 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/dflop.vhd|
+Z27 !s107 H:/ECE 371/ECE-371/lab 8/task 1/dflop.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R16
+l14
+L13
+VDHMATOEFIzS4X^eXJONXW0
+!s100 U;E_C^[YM]E4?[WXLSF:l3
+R7
+33
+R25
+!i10b 1
+R20
+R26
+R27
+!i113 1
+R12
+R13
+Emux_2to1
+R0
+R2
+R3
+R4
+Z28 8H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd
+Z29 FH:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd
+l0
+L4
+VFi24K;VShIVc4m[N?Pk@41
+!s100 IiU]3oK>1jLg=JU:I^N6f1
+R7
+33
+R25
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd|
+Z31 !s107 H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+DEx4 work 8 mux_2to1 0 22 Fi24K;VShIVc4m[N?Pk@41
+l13
+L12
+V^nR<X@SiU^8RGc0i:AIZe3
+!s100 1KNENio9GEhFUZ8A7HFUI1
+R7
+33
+R25
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
+Emux_8to1
+R0
+R2
+R3
+R4
+Z32 8H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd
+Z33 FH:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd
+l0
+L4
+VI5gflT^Z>_jIc8kYCS2XE1
+!s100 J0BR24mz5JaFI2_DJIP;80
+R7
+33
+R25
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd|
+Z35 !s107 H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R14
+l19
+L18
+Vg;lYW?:BOD6BozJ<mM=eR0
+!s100 UzV72M:H1SXUJiK^7[<j41
+R7
+33
+R25
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13

@@ -1,0 +1,82 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity arf32 is
+	generic( SIZE	 : positive := 6; 
+				R0_HW  : boolean := false);
+	port(      clk  : in  std_logic;
+	            rst : in  std_logic;
+		     rdAddr1 : in std_logic_vector(4 downto 0);
+		     rdAddr2 : in std_logic_vector(4 downto 0);
+		      wrAddr : in std_logic_vector(4 downto 0);
+		        wrEn : in std_logic;
+		      wrData : in std_logic_vector(SIZE-1 downto 0);
+		     rdData1 : out std_logic_vector(SIZE-1 downto 0);
+		     rdData2 : out std_logic_vector(SIZE-1 downto 0));
+end entity arf32;
+
+architecture structural of arf32 is
+	signal sig_ClkEn     : std_logic_vector(7 downto 0);
+	signal sig_dec2to4   : std_logic_vector(3 downto 0);
+	type Qs is array(7 downto 0) of std_logic_vector(SIZE-1 downto 0);
+	signal sig_Qs        : Qs;
+	type D1 is array(3 downto 0) of std_logic_vector(SIZE-1 downto 0);
+	signal sig_rdData1        : D1;
+	type D2 is array(3 downto 0) of std_logic_vector(SIZE-1 downto 0);
+	signal sig_rdData2        : D2;
+	signal sig_wrData    : std_logic_vector(SIZE - 1 downto 0);
+	signal sig_wrEn      : std_logic_vector(3 downto 0);
+	
+begin
+ 
+--This is the firstLevel Decoder in the tree the 
+	write_logic_firstLevel : entity work.dec_2to4(behavior)
+		port map(w => wrAddr(4 downto 3), y => sig_wrEn, en => WrEn);
+		
+
+
+	ARF_8 : for i in 1 to 3 generate
+		ARF_8  : entity work.arf8(structural)
+		generic map(SIZE=>SIZE,R0_HW =>R0_HW )
+		port map(clk => clk, 
+					rst => rst, 
+					rdAddr1 =>rdAddr1(2 downto 0) ,
+					rdAddr2 =>rdAddr2(2 downto 0) ,
+					wrAddr  =>wrAddr(2 downto 0)  ,
+					wrEn    =>sig_wrEn(i) ,
+					wrData  =>wrData  ,
+					rdData1 =>sig_rdData1(i) ,
+					rdData2 =>sig_rdData2(i));
+	end generate;
+--Hardwired R0 is True
+
+	R0_HW_true : if (R0_HW = true) generate
+		sig_Qs(0) <= (others=>'0');
+	end generate;
+
+--Hardwired R0 is False
+	R0_HW_false : if (R0_HW = false) generate
+		flop_0 : entity work.arf8(structural) 
+		generic map(SIZE=>SIZE,R0_HW =>R0_HW )
+		port map(clk => clk, 
+					rst => rst, 
+					rdAddr1 =>rdAddr1(2 downto 0) ,
+					rdAddr2 =>rdAddr2(2 downto 0) ,
+					wrAddr  =>wrAddr(2 downto 0) ,
+					wrEn    =>sig_wrEn(0),
+					wrData  =>wrData  ,
+					rdData1 =>sig_rdData1(0) ,
+					rdData2 =>sig_rdData2(0));
+	end generate;
+	
+	rdData1_mux : entity work.mux_4to1(behavior)
+	generic map(SIZE=>SIZE)
+	port map(w0=>sig_rdData1(0),w1=>sig_rdData1(1),w2=>sig_rdData1(2),w3=>sig_rdData1(3),s=>wrAddr(4 downto 3),f=>rdData1);
+
+	rdData2_mux : entity work.mux_4to1(behavior)
+	generic map(SIZE=>SIZE)
+	port map(w0=>sig_rdData2(0),w1=>sig_rdData2(1),w2=>sig_rdData2(2),w3=>sig_rdData2(3),s=>wrAddr(4 downto 3) ,f=>rdData2);
+	
+
+		
+end architecture structural;

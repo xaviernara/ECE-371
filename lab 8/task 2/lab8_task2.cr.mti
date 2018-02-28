@@ -1,0 +1,155 @@
+{H:/ECE 371/ECE-371/lab 8/task 1/dflop.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 1/dflop.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dflop
+-- Compiling architecture behavior of dflop
+
+} {} {}} {{H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd}} {1 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:29:07 on Feb 28,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_8to1
+-- Compiling architecture behavior of mux_8to1
+End time: 13:29:07 on Feb 28,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_8to1
+-- Compiling architecture behavior of mux_8to1
+
+} {} {}} {{H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd}} {0 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:29:08 on Feb 28,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arf32
+-- Compiling architecture structure of arf32
+** Error: (vcom-11) Could not find work.dec_3to8.
+** Error (suppressible): H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(20): (vcom-1195) Cannot find expanded name "work.dec_3to8".
+** Error: H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(20): Unknown expanded name.
+** Error: (vcom-11) Could not find work.arf8.
+** Error (suppressible): H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(23): (vcom-1195) Cannot find expanded name "work.arf8".
+** Error: H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(23): Unknown expanded name.
+** Error: (vcom-11) Could not find work.arf8.
+** Error (suppressible): H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(26): (vcom-1195) Cannot find expanded name "work.arf8".
+** Error: H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(26): Unknown expanded name.
+** Error: (vcom-11) Could not find work.arf8.
+** Error (suppressible): H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(30): (vcom-1195) Cannot find expanded name "work.arf8".
+** Error: H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(30): Unknown expanded name.
+** Error: (vcom-11) Could not find work.arf8.
+** Error (suppressible): H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(34): (vcom-1195) Cannot find expanded name "work.arf8".
+** Error: H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(34): Unknown expanded name.
+-- Loading entity mux_8to1
+** Error: H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd(45): VHDL Compiler exiting
+End time: 13:29:08 on Feb 28,2018, Elapsed time: 0:00:00
+Errors: 16, Warnings: 0
+
+} {11.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 24.0 25.0 26.0 27.0 28.0} {}} {H:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arf8
+-- Compiling architecture structure of arf8
+-- Loading entity dflop
+-- Loading entity dec_3to8
+-- Loading entity mux_8to1
+
+} {} {}} {H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4to1
+-- Compiling architecture behavior of mux_4to1
+-- Loading entity dec_2to4
+
+} {} {}} {{H:/ECE 371/ECE-371/lab 8/task 2/dec_2to4.vhd}} {1 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/lab 8/task 2/dec_2to4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:29:07 on Feb 28,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/lab 8/task 2/dec_2to4.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec_2to4
+-- Compiling architecture behavior of dec_2to4
+End time: 13:29:07 on Feb 28,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/lab 8/task 2/dec_2to4.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 2/dec_2to4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec_2to4
+-- Compiling architecture behavior of dec_2to4
+
+} {} {}} {{H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd}} {1 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:29:07 on Feb 28,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture behavior of mux_2to1
+End time: 13:29:07 on Feb 28,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture behavior of mux_2to1
+
+} {} {}} {H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arf32
+-- Compiling architecture structure of arf32
+-- Loading entity dec_3to8
+-- Loading entity arf8
+-- Loading entity mux_8to1
+
+} {} {}} {H:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec_3to8
+-- Compiling architecture behavior of dec_3to8
+
+} {} {}} {{H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd}} {1 {vcom -work work -2008 -explicit {H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:29:07 on Feb 28,2018
+vcom -reportprogress 300 -work work -2008 -explicit H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4to1
+-- Compiling architecture behavior of mux_4to1
+-- Loading entity dec_2to4
+End time: 13:29:07 on Feb 28,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}}

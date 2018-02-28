@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rdData1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rdData2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdAddr2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wrData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "wrAddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wrEn",
+					"strict" : false
+				},
+				{
+					"name" : "wrAddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wrAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wrAddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wrAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wrData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wrData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wrData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wrData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wrData[5]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

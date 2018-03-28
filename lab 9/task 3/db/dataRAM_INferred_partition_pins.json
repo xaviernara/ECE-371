@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "qout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wrEN",
+					"strict" : false
+				},
+				{
+					"name" : "din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "din[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

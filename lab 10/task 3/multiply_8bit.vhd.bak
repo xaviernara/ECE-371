@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity multiply_8bit is
+
+	generic
+	(
+		N : positive := 16
+	);
+
+	port 
+	(
+		x,y,w,z,CIN	: in std_logic_vector(N-1 downto 0);
+		arith		: in STD_LOGIC;
+		SUM, COUT a: OUT std_logic_VECTOR(n-1 DOWNTO 0);
+	);
+
+end entity;
+
+architecture MIXED of multiply_8bit is
+
+	-- Declare I/O registers
+	signal a_reg, b_reg : (N-1 downto 0);
+	signal out_reg	  : (n-1 downto 0);
+
+begin
+
+
+
+
+
+end mixed;
+

@@ -1,0 +1,48 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity multiply_4bit is
+	generic
+	(
+		SIZE : positive := 8
+	);
+
+	port 
+	(
+		x,y   : in std_logic_vector(7 downto 0);
+		arith	  : in std_logic;
+		p         : OUT std_logic_vector(15 downto 0)
+	);
+
+end entity;
+--Design the 8-bit multiplier with inputs (x, y) (8 bit operands), arith (1 bit control), and output p (16 bit product)
+
+architecture MIXED of multiply_8bit is	
+--	signal carry_out2: std_logic_vector(1 downto 0);
+xy_and :std_logic_vector(15 downto 0); 
+--xy_and2 :std_logic_vector(15 downto 0); 
+--	signal carry_out: std_logic_vector (1 downto 0);
+
+begin
+--Model the partial product generator logic using dataflow modeling
+--First 16 AND of the partial product generator logic
+xy_and(0) <= x(3) and y(3);
+xy_and(1) <= x(2) and y(3);
+xy_and(2) <= x(3) and y(2);
+xy_and(3) <= x(1) and y(3);
+
+xy_and(4) <= x(2) and y(2);
+xy_and(5) <= x(3) and y(1);
+xy_and(6) <= x(0) and y(3);
+xy_and(7) <= x(1) and y(2);
+
+xy_and(8) <= x(2) and y(1);
+xy_and(9) <= x(3) and y(0);
+xy_and(10) <= x(0) and y(2);
+xy_and(11) <= x(1) and y(1);
+
+xy_and(12) <= x(2) and y(0);
+xy_and(13) <= x(0) and y(1);
+xy_and(14) <= x(1) and y(0);
+xy_and(15) <= x(0) and y(0);

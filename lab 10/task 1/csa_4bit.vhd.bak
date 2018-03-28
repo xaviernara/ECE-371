@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity csa_8bit is
+
+	generic
+	(
+		SIZE : positive := 8
+	);
+
+	port 
+	(
+		x,y,w,z   : in std_logic_vector(7 downto 0);
+		CIN, arith	  : in std_logic;
+		p         : OUT std_logic_vector(15 downto 0)
+		SUM, COUT : OUT std_logic
+	);
+
+end entity;

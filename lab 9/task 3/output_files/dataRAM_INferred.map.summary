@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Mar 11 22:33:43 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : dataRAM_INferred
+Top-level Entity Name : dataRAM_INferred
+Family : Cyclone IV E
+Total logic elements : 8
+    Total combinational functions : 0
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 15
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

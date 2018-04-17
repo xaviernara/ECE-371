@@ -1,0 +1,198 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity p3_decode_no_bypass is
+	generic (SIZE : positive :=32); 
+		 I5SIZE : positive := 5;
+ 		 I8SIZE : positive := 8;
+ 		 I16SIZE : positive := 16;
+		 OSIZE : positive := 32);
+
+
+	port (Branch_Mux_Control_RT_GSED : in std_logic_vector(1 downto 0); --FROM CONTROL UNIT
+PC_DECODE :IN std_logic_vector (4 downto 0);
+	      --PC_PLUS1_DECODE :IN std_logic_vector (4 downto 0);
+	      WriteDataW_IN :IN std_logic_vector (31 downto 0);
+	      WriteAddressW_IN :IN std_logic_vector (31 downto 0);
+	      SHAMT :IN std_logic_vector (15 downto 0);
+	      RegDst_DECODE :IN std_logic;
+	      RT_DECODE:IN std_logic;
+	      RD_DECODE:IN std_logic;
+
+		INSTRUCTION_in_DECODE : in std_logic_vector(31 downto 0);
+		PC_1_in_DECODE : in std_logic_vector(31 downto 0);
+		WA_in_REG_FILE_DECODE : in std_logic_vector(4 downto 0);
+		WD_in_REG_FILE_DECODE : in std_logic_vector(31 downto 0);
+		wren,clk,rst : in std_logic;
+		selEXT : in std_logic;
+		selWA : in std_logic_vector(1 downto 0);
+		selBZ : in std_logic;
+
+-------------------------------------DECODE OUTPUT SIGNALS-----------------------------------
+		rd1_in_EXECUTE,rd2_in_EXECUTE : out std_logic_vector(31 downto 0);
+		GSE_out_DECODE : out std_logic_vector(2 downto 0);
+		BTA_out_DECODE  : out std_logic_vector(7 downto 0);
+		JR_out_DECODE  : out std_logic_vector(7 downto 0);
+		J_out_DECODE  : out std_logic_vector(7 downto 0);
+		PC1EXT32_in_EXECUTE : out std_logic_vector(31 downto 0);
+		IMMEXT32_in_EXECUTE: out std_logic_vector(31 downto 0);
+		SHAMT_in_EXECUTE: out std_logic_vector(31 downto 0);
+		WA_in_EXECUTE : out std_logic_vector(4 downto 0);
+		ops : out std_logic_vector(5 downto 0);
+		funct : out std_logic_vector(5 downto 0);
+		rtforCU : out std_logic_vector(4 downto 0)
+		);
+END ENTITY p3_decode_no_bypass;
+
+architecture structure of p3_decode_no_bypass is
+signal rs,rt,rd : std_logic_vector(4 downto 0);
+signal shamt : std_logic_vector(4 downto 0);
+signal immediate8 : std_logic_vector(7 downto 0);
+signal immediate16 : std_logic_vector(15 downto 0);
+signal R31 : std_logic_vector(4 downto 0);
+signal PC8 : std_logic_vector(7 downto 0);
+signal zero : std_logic_vector(31 downto 0) := "00000000000000000000000000000000";
+signal BZ : std_logic_vector(31 downto 0);
+signal rd1_out_DECODE ,rd2_out_DECODE  : std_logic_vector(31 downto 0);
+signal SHAMT_out_DECODE  : std_logic_vector(31 downto 0);
+signal PC1EXT32_out_DECODE  : std_logic_vector(31 downto 0);
+signal IMMEXT32_out_DECODE  : std_logic_vector(31 downto 0);
+signal WA_out_DECODE  : std_logic_vector(4 downto 0);
+
+
+
+
+
+begin 
+	ops <= INSTRUCTION_in_DECODE(31 downto 26);
+	funct <= INSTRUCTION_in_DECODE(5 downto 0);
+	rs <= INSTRUCTION_in_DECODE(25 downto 21);
+	rt <= INSTRUCTION_in_DECODE(20 downto 16);
+	rd <= INSTRUCTION_in_DECODE(15 downto 11);
+	shamt <= INSTRUCTION_in_DECODE(10 downto 6);
+	immediate8 <= INSTRUCTION_in_DECODE(7 downto 0);
+	immediate16 <= INSTRUCTION_in_DECODE(15 downto 0);
+
+	R31 <= "11111";
+	PC8 <= PC_1_in_DECODE(7 downto 0);
+	J_out_DECODE <= immediate8;
+	JR_out_DECODE <= rd1_out_DECODE(7 downto 0);
+
+
+--	ARF : entity work.arf32_config(structure)
+--		generic map(SIZE=>SIZE,R0_HW=>R0_HW,BYPASS=>BYPASS)
+--		port map(	clk => clk,
+--				rst => rst,
+--				rdAddr1 => rs,
+--				rdAddr2 => rd,
+--				wrAddr => WAinD,
+--				wren => wren,
+--				wrData => WDinD,
+--				rdData1 => rd1outD,
+--				rdData2 => rd2outD);
+
+	Zero_EXTforSHAMT : entity work.elu(dataflow)
+		generic map(ISIZE=>I5SIZE,OSIZE=>OSIZE)
+		port map(	A => shamt, 
+				arith => '0',
+				Y => SHAMT_out_DECODE);
+	
+	Zero_EXTforPC1 : entity work.elu(dataflow)
+		generic map(ISIZE=>I8SIZE,OSIZE=>OSIZE)
+		port map(	A => PC8, 
+				arith => '0',
+				Y => PC1EXT32_out_DECODE);
+
+	EXT_forIMMEDIATE : entity work.elu(dataflow)
+		generic map(ISIZE=>I16SIZE,OSIZE=>OSIZE)
+		port map(	A => immediate16, 
+				arith => selEXT,
+				Y => IMMEXT32_out_DECODE);
+
+	selWriteAddress : entity work.mux_4to1(behavior)
+		generic map(SIZE => I5SIZE )
+		port map(	w0 => rd, 
+				w1 => rt,
+				w2 => R31,
+				w3 => R31,    --I DONT KNOW HOW TO FIX IT, IT SHOULD BE ZERO
+				s => selWA,
+				f => WA_out_DECODE);
+
+	CLA : entity work.cla_8bit(structure)
+		port map(	x => immediate8,
+				y => PC8,
+				cin => '0',
+				sum =>BTA_out_DECODE,
+				GG =>OPEN,
+				GA =>OPEN );
+
+	
+	selBranchwithZero : entity work.mux_2to1(mixed)
+		generic map(SIZE => SIZE)
+		port map(	w0 => rd2_out_DECODE,
+				w1 => zero,
+				s => selBZ,
+				f => BZ);
+
+	BTC : entity work.btc_32bit(structure)
+		generic map(SIGNED_OPS => true)
+		port map(	x => rd1_out_DECODE,
+				Y => rd2_out_DECODE,
+				z_GSE => GSE_out_DECODE);
+
+
+----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Through the pipeline (ie the output signals going thru to the execute STAGE)--------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
+
+	dflopforshamt : entity work.dflop(behavior)
+			generic map(SIZE=>SIZE)
+			port map(	clk => clk,
+					rst => rst,
+					clken => '1',
+					din => SHAMT_out_DECODE,
+					q => SHAMT_in_EXECUTE);
+
+	dflopforRD1 : entity work.dflop(behavior)
+			generic map(SIZE=>SIZE)
+			port map(	clk => clk,
+					rst => rst,
+					clken => '1',
+					din => rd1_out_DECODE,
+					q => rd1_in_EXECUTE);
+
+	dflopforRD2 : entity work.dflop(behavior)
+			generic map(SIZE=>SIZE)
+			port map(	clk => clk,
+					rst => rst,
+					clken => '1',
+					din => rd2_out_DECODE,
+					q => rd2_in_EXECUTE);
+
+	dflopforPC1 : entity work.dflop(behavior)
+			generic map(SIZE=>SIZE)
+			port map(	clk => clk,
+					rst => rst,
+					clken => '1',
+					din => PC1EXT32_out_DECODE,
+					q => PC1EXT32_in_EXECUTE);
+
+	dflopforIMM : entity work.dflop(behavior)
+			generic map(SIZE=>SIZE)
+			port map(	clk => clk,
+					rst => rst,
+					clken => '1',
+					din => IMMEXT32_out_DECODE,
+					q => IMMEXT32_in_EXECUTE);
+
+	dflopforWA : entity work.dflop(behavior)
+			generic map(SIZE=>SIZE)
+			port map(	clk => clk,
+					rst => rst,
+					clken => '1',
+					din => WA_out_DECODE,
+					q => WA_in_EXECUTE);
+
+end architecture structure;

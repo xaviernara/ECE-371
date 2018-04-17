@@ -7,10 +7,15 @@ entity p3_fetch_no_bypass is
 	generic (SIZE : positive :=32);
 	port(Branch_Mux_Control_RT_GSED: in std_logic_vector(1 downto 0); --FROM CONTROL UNIT
 		WREN,clk,rst : IN std_logic;
-		BTA_IN_FETECH : IN std_logic_vector(31 downto 0);
+		BTA_IN_FETCH : IN std_logic_vector(31 downto 0);
 		JRTA_IN_FETCH : IN std_logic_vector(31 downto 0);
 		JTA_IN_FETCH : IN std_logic_vector(31 downto 0);
 		DATA : in std_logic_vector(31 downto 0);
+		CLA_COUT_PC_PLUS_1 : OUT std_logic;
+		CLA_Y_PC_PLUS_1 : in std_logic_VECTOR (7 DOWNTO 0);
+		CLA_sum_out : OUT std_logic_vector(7 downto 0);
+
+
 		rd1inein_DECODE : out std_logic_vector(31 downto 0);
 		PC1in_DECODE : out std_logic_vector(31 downto 0)
 	);
@@ -23,6 +28,9 @@ architecture structure of p3_fetch_no_bypass is
 	signal PC1out_FETCH : std_logic_vector(31 downto 0);
 	signal INSTRUCTION_ADD_OUT : std_logic_vector(31 downto 0);
 	signal PC_Plus1 : std_logic_vector(31 downto 0);
+	--signal CLA_sum_out : std_logic_vector(7 downto 0);
+	--signal PCPLUS_1_cout : std_logic_vector(7 downto 0);
+
 begin
 
 --PC + 1 SECTION
@@ -36,10 +44,15 @@ Instruction_Memory : entity work.instructionROM(SYN)
 
 SELECT_Address: entity work. mux_4to1(behavhior)
 	generic map (SIZE=> SIZE)
-	POrt map (w0 => PC_Plus1, w1 => JRTA_IN_FETCH, w2 => BTA_IN_FETCH, w3 => JTA_IN_FETCH, s => Branch_Mux_Control_RT_GSED, f => ADD_INSTRUCTION);
+	port map (w0 => PC_Plus1, w1 => JRTA_IN_FETCH, w2 => BTA_IN_FETCH, w3 => JTA_IN_FETCH, s => Branch_Mux_Control_RT_GSED, f => ADD_INSTRUCTION);
+
+CLA_PC_PLUS_1: ENTITY work. cla_8bit(structure)
+port map (x=>PC1out_FETCH(31 DOWNTO 24) ,y=>CLA_Y_PC_PLUS_1,cin=>'0',cout=>CLA_COUT_PC_PLUS_1 ,sum=>PC_PLUS1(31 DOWNTO 24),GG =>OPEN,GA =>OPEN);
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------Through the pipeline--------------------------------------------------
+------------------------------------------------------Through the pipeline (ie the output signals going thru to the decode STAGE)--------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
 
 	d_FLIP_flopforPC1 : entity work.dflop(behavior)
@@ -56,5 +69,5 @@ SELECT_Address: entity work. mux_4to1(behavhior)
 
 
 END ARCHITECTURE STRUCTURE;
-)
+
 	

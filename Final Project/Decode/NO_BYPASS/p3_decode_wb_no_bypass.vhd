@@ -10,8 +10,17 @@ entity p3_decode_wb_no_bypass is
 		 OSIZE : positive := 32);
 
 
-	port (Branch_Mux_Control_RT_GSED : in std_logic_vector(1 downto 0); --FROM CONTROL UNIT
-PC_DECODE :IN std_logic_vector (4 downto 0);
+	port ( ReadData_MEMORY_input : in std_logic_vector(31 downto 0);
+		ALUWriteAddress_EXECUTE_input : in std_logic_vector(31 downto 0);
+		WriteAddress_WB_Input_DECODE : in std_logic_vector(4 downto 0);
+		IsLoadData_WB_SELECT : in std_logic;
+-----------------------------------------------(above)WRITE BACK INPUT SIGNALS-----------------------------------
+---------------------------------------------------------------------------------------------------
+
+-----------------------------------------------(below)DECODE INPUT SIGNALS-----------------------------------
+
+	      Branch_Mux_Control_RT_GSED : in std_logic_vector(1 downto 0); --FROM CONTROL UNIT
+	      PC_DECODE :IN std_logic_vector (4 downto 0);
 	      --PC_PLUS1_DECODE :IN std_logic_vector (4 downto 0);
 	      WriteDataW_IN :IN std_logic_vector (31 downto 0);
 	      WriteAddressW_IN :IN std_logic_vector (31 downto 0);
@@ -22,14 +31,14 @@ PC_DECODE :IN std_logic_vector (4 downto 0);
 
 		INSTRUCTION_in_DECODE : in std_logic_vector(31 downto 0);
 		PC_1_in_DECODE : in std_logic_vector(31 downto 0);
-		WA_in_REG_FILE_DECODE : in std_logic_vector(4 downto 0);
-		WD_in_REG_FILE_DECODE : in std_logic_vector(31 downto 0);
+		--WA_in_REG_FILE_DECODE : in std_logic_vector(4 downto 0);
+		--WD_in_REG_FILE_DECODE : in std_logic_vector(31 downto 0);
 		wren,clk,rst : in std_logic;
 		selEXT : in std_logic;
 		selWA : in std_logic_vector(1 downto 0);
 		selBZ : in std_logic;
 
--------------------------------------DECODE OUTPUT SIGNALS-----------------------------------
+-------------------------------------(below)DECODE OUTPUT SIGNALS-----------------------------------
 		rd1_in_EXECUTE,rd2_in_EXECUTE : out std_logic_vector(31 downto 0);
 		GSE_out_DECODE : out std_logic_vector(2 downto 0);
 		BTA_out_DECODE  : out std_logic_vector(7 downto 0);
@@ -41,11 +50,16 @@ PC_DECODE :IN std_logic_vector (4 downto 0);
 		WA_in_EXECUTE : out std_logic_vector(4 downto 0);
 		ops : out std_logic_vector(5 downto 0);
 		funct : out std_logic_vector(5 downto 0);
-		rtforCU : out std_logic_vector(4 downto 0)
+		rtforCU : out std_logic_vector(4 downto 0);
+
+-------------------------------------(below)Write Back OUTPUT SIGNALS-----------------------------------
+		WriteData_out_WB_in_DECODE : out std_logic_vector(31 downto 0);
+		WriteAddress_out_WB_in_DECODE : out std_logic_vector(4 downto 0)
 		);
 END ENTITY p3_decode_wb_no_bypass;
 
 architecture structure of p3_decode_wb_no_bypass is
+
 signal rs,rt,rd : std_logic_vector(4 downto 0);
 signal shamt : std_logic_vector(4 downto 0);
 signal immediate8 : std_logic_vector(7 downto 0);
@@ -60,11 +74,16 @@ signal PC1EXT32_out_DECODE  : std_logic_vector(31 downto 0);
 signal IMMEXT32_out_DECODE  : std_logic_vector(31 downto 0);
 signal WA_out_DECODE  : std_logic_vector(4 downto 0);
 
+-------------------------------------DECODE LOGIC signal intermediate signal creation(above)----------------------------------------------------
 
+-------------------------------------WB LOGIC signal intermediate signal creation(below)-------------------------------------
 
+signal WriteAddress_out_WB : std_logic_vector(4 downto 0);
+signal WriteData_out_WB : std_logic_vector(4 downto 0);
 
 
 begin 
+-------------------------------------DECODE LOGIC signal intermediate signal assgnment(below)----------------------------------------------------
 	ops <= INSTRUCTION_in_DECODE(31 downto 26);
 	funct <= INSTRUCTION_in_DECODE(5 downto 0);
 	rs <= INSTRUCTION_in_DECODE(25 downto 21);
@@ -73,25 +92,33 @@ begin
 	shamt <= INSTRUCTION_in_DECODE(10 downto 6);
 	immediate8 <= INSTRUCTION_in_DECODE(7 downto 0);
 	immediate16 <= INSTRUCTION_in_DECODE(15 downto 0);
-
 	R31 <= "11111";
 	PC8 <= PC_1_in_DECODE(7 downto 0);
 	J_out_DECODE <= immediate8;
 	JR_out_DECODE <= rd1_out_DECODE(7 downto 0);
+	
+-------------------------------------WB LOGIC signal intermediate signal assgnment------------------------------------
 
+WriteAddress_out_WB<= WriteData_out_WB_in_DECODE;
+WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 
---	ARF : entity work.arf32_config(structure)
---		generic map(SIZE=>SIZE,R0_HW=>R0_HW,BYPASS=>BYPASS)
---		port map(	clk => clk,
---				rst => rst,
---				rdAddr1 => rs,
---				rdAddr2 => rd,
---				wrAddr => WAinD,
---				wren => wren,
---				wrData => WDinD,
---				rdData1 => rd1outD,
---				rdData2 => rd2outD);
+-------------------------------------DECODE logic gates and connections ----------------------------------------------------
 
+	REGISTAR_FILE : entity work.arf32(structure)
+		generic map(SIZE=>SIZE,R0_HW=>R0_HW,BYPASS=>BYPASS)
+		port map(	clk => clk,
+				rst => rst,
+				rdAddr1 => rs,
+				rdAddr2 => rd,
+				wrAddr=> WriteAddress_out_WB,
+				--wrAddr => WAinD,
+				wren => wren,
+				wrData=>WriteData_out_WB,
+				--wrData => WDinD,
+				rdData1 => rd1outD,
+				rdData2 => rd2outD);
+
+-------------------------------------------DECODE EXTENSION LOGIC----------------------------------
 	Zero_EXTforSHAMT : entity work.elu(dataflow)
 		generic map(ISIZE=>I5SIZE,OSIZE=>OSIZE)
 		port map(	A => shamt, 
@@ -109,6 +136,7 @@ begin
 		port map(	A => immediate16, 
 				arith => selEXT,
 				Y => IMMEXT32_out_DECODE);
+--------------------------------------------------------------------------------------
 
 	selWriteAddress : entity work.mux_4to1(behavior)
 		generic map(SIZE => I5SIZE )
@@ -141,12 +169,9 @@ begin
 				Y => rd2_out_DECODE,
 				z_GSE => GSE_out_DECODE);
 
-
 ----------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------Through the pipeline (ie the output signals going thru to the execute STAGE)--------------------------------------------------
+--------------------Through the pipeline (ie the output signals going thru to the execute STAGE)----------------------------
 ----------------------------------------------------------------------------------------------------------------------------
-
-
 	dflopforshamt : entity work.dflop(behavior)
 			generic map(SIZE=>SIZE)
 			port map(	clk => clk,
@@ -194,5 +219,16 @@ begin
 					clken => '1',
 					din => WA_out_DECODE,
 					q => WA_in_EXECUTE);
+
+
+----------------------------------------------------------------------------------------------------------------------------
+--------------------WRITE BACK LOGIC (ie the mux and the output signals going OUT to the WB STAGE and into the decode stage)----------------------------
+------------------------------------------------------------------------------------------------------------------------------
+MUX_for_WB : entity work.mux_2to1(mixed)
+generic map(SIZE=>SIZE)
+port map(w0 => ReadData_MEMORY_input,w1 => ALUWriteAddress_EXECUTE_input,sel => IsLoadData_WB_SELECT,f => WriteData_out_WB_in_DECODE);
+
+--WriteAddress_WB_in_DECODE <= WriteAddress_In_DECODE;
+
 
 end architecture structure;

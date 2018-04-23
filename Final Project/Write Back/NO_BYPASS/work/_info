@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera17
+Emux_2to1
+Z0 w1493509922
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dH:/ECE 371/ECE-371/Final Project/Write Back/NO_BYPASS
+Z4 8H:\ECE 371\ECE-371\Final Project\Write Back\NO_BYPASS\mux_2to1.vhd
+Z5 FH:\ECE 371\ECE-371\Final Project\Write Back\NO_BYPASS\mux_2to1.vhd
+l0
+L4
+V6DU:L5oMV`CC]EEH8QoRc0
+!s100 JUTSJBJoSIKTY@2Z7T^Ye1
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1524516480
+!i10b 1
+Z8 !s108 1524516479.000000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:\ECE 371\ECE-371\Final Project\Write Back\NO_BYPASS\mux_2to1.vhd|
+Z10 !s107 H:\ECE 371\ECE-371\Final Project\Write Back\NO_BYPASS\mux_2to1.vhd|
+!i113 1
+Z11 o-work work -2008 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Amixed
+R1
+R2
+Z13 DEx4 work 8 mux_2to1 0 22 6DU:L5oMV`CC]EEH8QoRc0
+l12
+L11
+VGedRiTN^F^N5dN9_7Xb151
+!s100 ID<VM:o<<zhj7aAH5hVFG0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ep3_wb_no_bypass
+Z14 w1524515421
+R1
+R2
+R3
+Z15 8H:/ECE 371/ECE-371/Final Project/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd
+Z16 FH:/ECE 371/ECE-371/Final Project/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd
+l0
+L4
+V][kLS^K[L[2J]jUE0zMcZ2
+!s100 <CTYL_2n`6N0>XijBS]kP1
+R6
+33
+R7
+!i10b 1
+Z17 !s108 1524516480.000000
+Z18 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Final Project/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd|
+Z19 !s107 H:/ECE 371/ECE-371/Final Project/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd|
+!i113 1
+R11
+R12
+Astructure
+R13
+R1
+R2
+Z20 DEx4 work 15 p3_wb_no_bypass 0 22 ][kLS^K[L[2J]jUE0zMcZ2
+l16
+L15
+Z21 VSB0k^0_]?g5aOkcXXLkR[3
+Z22 !s100 d^;QW8?YG[bC1e4j3a]gB3
+R6
+33
+R7
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12

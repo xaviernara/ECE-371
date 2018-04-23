@@ -72,7 +72,6 @@ Unsigned_bit_op :if (SIGNED_OPS = false) generate
 ----------------------------------------------------------------------------------
 	
 	Signed_bit_op :if (SIGNED_OPS = TRUE) generate
-
 --	s_equal(2) <= x(1) xnor y(1);
 --	s_equal(1) <= x(0) xnor y(0);
 	less(1)<= x(1) and (not y(1));
@@ -82,7 +81,6 @@ Unsigned_bit_op :if (SIGNED_OPS = false) generate
 	z_GSE(0) <= equal(1) and equal(0);  --signed equal
 	z_GSE(2)<= greater(1) or (greater(0) and  equal(1)); --signed greater
 	z_GSE(1)<= less(1) or(less(0) and equal(1)); --signed less
-
 
 --      s_greater(2) <= y(1) and (not x(1));
 --	s_greater(1) <= y(0) and (not x(0));
@@ -172,7 +170,6 @@ Unsigned_bit_op :if (SIGNED_OPS = false) generate
 ----------------------------------------------------------------------------------
 	
 	Signed_bit_op :if (SIGNED_OPS = TRUE) generate
-
 --	s_equal(2) <= x(1) xnor y(1);
 --	s_equal(1) <= x(0) xnor y(0);
 	less(1)<= x(1) and (not y(1));
@@ -182,7 +179,6 @@ Unsigned_bit_op :if (SIGNED_OPS = false) generate
 	z_GSE(0) <= equal(1) and equal(0);  --signed equal
 	z_GSE(2)<= greater(1) or (greater(0) and  equal(1)); --signed greater
 	z_GSE(1)<= less(1) or(less(0) and equal(1)); --signed less
-
 
 --      s_greater(2) <= y(1) and (not x(1));
 --	s_greater(1) <= y(0) and (not x(0));
@@ -271,7 +267,6 @@ Unsigned_bit_op :if (SIGNED_OPS = false) generate
 ----------------------------------------------------------------------------------
 	
 	Signed_bit_op :if (SIGNED_OPS = TRUE) generate
-
 --	s_equal(2) <= x(1) xnor y(1);
 --	s_equal(1) <= x(0) xnor y(0);
 	less(1)<= x(1) and (not y(1));
@@ -281,7 +276,6 @@ Unsigned_bit_op :if (SIGNED_OPS = false) generate
 	z_GSE(0) <= equal(1) and equal(0);  --signed equal
 	z_GSE(2)<= greater(1) or (greater(0) and  equal(1)); --signed greater
 	z_GSE(1)<= less(1) or(less(0) and equal(1)); --signed less
-
 
 --      s_greater(2) <= y(1) and (not x(1));
 --	s_greater(1) <= y(0) and (not x(0));

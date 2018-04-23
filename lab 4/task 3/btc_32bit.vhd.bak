@@ -11,6 +11,15 @@ entity btc_32bit is
 	); 
 end entity btc_32bit;
 
+--The configurable BTC-32 operates on unsigned operands if feature parameter SIGNED_OPS = false
+--and operates on signed 2?s complement operands if feature parameter SIGNED_OPS = true. The
+--BTC-32 comprises several BTC-8?s and CPC-2?s arranged in a binary tree. No other logic is allowed
+--
+--In an architecture named structure, model the configurable BTC-32 using entity instantiation
+--statements and named association. Also, use simple concurrent signal assignment statements and
+--the concatenation operator. Additionally, consider using constant objects and the open keyword
+--when appropriate.
+
 architecture structure of btc_32bit is 
 
 signal c1,c2,c3,c4,c5,c6: std_logic_vector(2 downto 0); --intermediate signals connecting the comparaters 
@@ -64,6 +73,15 @@ entity btc_32bit is
         z_GSE : out std_logic_vector(2 downto 0)--Comparison results 
 	); 
 end entity btc_32bit;
+
+--The configurable BTC-32 operates on unsigned operands if feature parameter SIGNED_OPS = false
+--and operates on signed 2?s complement operands if feature parameter SIGNED_OPS = true. The
+--BTC-32 comprises several BTC-8?s and CPC-2?s arranged in a binary tree. No other logic is allowed
+--
+--In an architecture named structure, model the configurable BTC-32 using entity instantiation
+--statements and named association. Also, use simple concurrent signal assignment statements and
+--the concatenation operator. Additionally, consider using constant objects and the open keyword
+--when appropriate.
 
 architecture structure of btc_32bit is 
 

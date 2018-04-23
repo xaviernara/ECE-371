@@ -2,8 +2,8 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity p3_decode_no_bypass is
-	generic (SIZE : positive :=32); 
+entity p3_decode_wb_no_bypass is
+	generic (SIZE : positive :=32; 
 		 I5SIZE : positive := 5;
  		 I8SIZE : positive := 8;
  		 I16SIZE : positive := 16;
@@ -43,9 +43,9 @@ PC_DECODE :IN std_logic_vector (4 downto 0);
 		funct : out std_logic_vector(5 downto 0);
 		rtforCU : out std_logic_vector(4 downto 0)
 		);
-END ENTITY p3_decode_no_bypass;
+END ENTITY p3_decode_wb_no_bypass;
 
-architecture structure of p3_decode_no_bypass is
+architecture structure of p3_decode_wb_no_bypass is
 signal rs,rt,rd : std_logic_vector(4 downto 0);
 signal shamt : std_logic_vector(4 downto 0);
 signal immediate8 : std_logic_vector(7 downto 0);

@@ -21,9 +21,9 @@ V318fmzoNR_PObcK_@Ma=L1
 !s100 FOdT4ZbHf`e=VYO_I9JWE3
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1523923119
+Z7 !s110 1524609040
 !i10b 1
-Z8 !s108 1523923119.000000
+Z8 !s108 1524609040.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd|
 Z10 !s107 H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd|
 !i113 1
@@ -102,9 +102,9 @@ Vj7Amimk@ezWODmQ;i5T[10
 !s100 ?d3D6ZAAQRZN7QdC_6]JD3
 R6
 32
-Z27 !s110 1523923120
+Z27 !s110 1524609041
 !i10b 1
-Z28 !s108 1523923120.000000
+Z28 !s108 1524609041.000000
 Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit.vhd|
 Z30 !s107 H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit.vhd|
 !i113 1
@@ -221,9 +221,9 @@ V[TXmkfDFL6GhX[ZDVi0622
 !s100 O[:Vg27`TdA:4oocI?GDb2
 R6
 33
-Z46 !s110 1523923118
+Z46 !s110 1524609039
 !i10b 1
-Z47 !s108 1523923117.000000
+Z47 !s108 1524609039.000000
 Z48 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/decode_2to4.vhd|
 Z49 !s107 H:/ECE 371/ECE-371/Lab 2/decode_2to4.vhd|
 !i113 1
@@ -260,9 +260,9 @@ V5KJbdi7B^:zbZPJX<c8`13
 !s100 m]43cVCjb8_l;oV5_Gd?<0
 R6
 33
-Z55 !s110 1523923117
+Z55 !s110 1524609038
 !i10b 1
-Z56 !s108 1523923116.000000
+Z56 !s108 1524609037.000000
 Z57 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/dflop.vhd|
 Z58 !s107 H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/dflop.vhd|
 !i113 1
@@ -302,9 +302,9 @@ R6
 33
 R55
 !i10b 1
-R47
-Z64 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 9/task 1/instructionROM.vhd|
-Z65 !s107 H:/ECE 371/ECE-371/lab 9/task 1/instructionROM.vhd|
+Z64 !s108 1524609038.000000
+Z65 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 9/task 1/instructionROM.vhd|
+Z66 !s107 H:/ECE 371/ECE-371/lab 9/task 1/instructionROM.vhd|
 !i113 1
 R50
 R12
@@ -312,7 +312,7 @@ Asyn
 R61
 R1
 R2
-Z66 DEx4 work 14 instructionrom 0 22 Yd0NdgV]N[K4aI=WXK8213
+Z67 DEx4 work 14 instructionrom 0 22 Yd0NdgV]N[K4aI=WXK8213
 l60
 L56
 V`WWEYOPkJXVDR`5f2YMCD3
@@ -321,30 +321,30 @@ R6
 33
 R55
 !i10b 1
-R47
 R64
 R65
+R66
 !i113 1
 R50
 R12
 Emux_2to1
-Z67 w1517272178
+Z68 w1517272178
 R1
 R2
 R3
-Z68 8H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd
-Z69 FH:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd
+Z69 8H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd
+Z70 FH:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd
 l0
 L5
 V[XeC?mdnJ98WfQSaJQ_>Q0
 !s100 ebOQ9ej<5VYY6IPdV3j;53
 R6
 33
-R55
+R46
 !i10b 1
-R47
-Z70 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd|
-Z71 !s107 H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd|
+R64
+Z71 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd|
+Z72 !s107 H:/ECE 371/ECE-371/Lab 2/task 3/mux_2to1.vhd|
 !i113 1
 R50
 R12
@@ -358,22 +358,22 @@ V`>2n]M3l_noAzI5Ul?^A73
 !s100 HZI^R`@3enN<D8J?BS:zb1
 R6
 33
-R55
+R46
 !i10b 1
-R47
-R70
+R64
 R71
+R72
 !i113 1
 R50
 R12
 Emux_4to1
-Z72 w1517272184
-Z73 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z73 w1517272184
+Z74 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z74 8H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd
-Z75 FH:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd
+Z75 8H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd
+Z76 FH:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd
 l0
 L6
 VTc^[kL:H=7h_FT>f2Cb;l1
@@ -382,7 +382,7 @@ R6
 33
 R46
 !i10b 1
-Z76 !s108 1523923118.000000
+R47
 Z77 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd|
 Z78 !s107 H:/ECE 371/ECE-371/Lab 2/task 3/mux_4to1.vhd|
 !i113 1
@@ -390,7 +390,7 @@ R50
 R12
 Amixed
 R51
-R73
+R74
 R1
 R2
 Z79 DEx4 work 8 mux_4to1 0 22 Tc^[kL:H=7h_FT>f2Cb;l1
@@ -402,29 +402,29 @@ R6
 33
 R46
 !i10b 1
-R76
+R47
 R77
 R78
 !i113 1
 R50
 R12
 Ep3_fetch_no_bypass
-Z80 w1523923112
-R73
+Z80 w1524609034
+R74
 R1
 R2
 R3
 Z81 8H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd
 Z82 FH:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd
 l0
-L6
-VRA_RcGlK]8TbcaOoed]m52
-!s100 cozMOEQHBV3_9HKzDV09z2
+L5
+VR>PIJF]:i9<lVLF9R:]Yh0
+!s100 kE>:oLlez7TV871ckK1Ym0
 R6
 33
-R46
+R7
 !i10b 1
-R76
+R8
 Z83 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd|
 Z84 !s107 H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd|
 !i113 1
@@ -435,20 +435,20 @@ R59
 R23
 R79
 R61
-R66
-R73
+R67
+R74
 R1
 R2
-DEx4 work 18 p3_fetch_no_bypass 0 22 RA_RcGlK]8TbcaOoed]m52
-l34
-L24
-V[VfTOPHgBIImA=MY7cgUJ0
-!s100 b8?Lb_J60ZH^LJULSgjQI3
+DEx4 work 18 p3_fetch_no_bypass 0 22 R>PIJF]:i9<lVLF9R:]Yh0
+l33
+L23
+V3j5n:GOYQ3iYdclLIZeWN2
+!s100 j]flfZ9aXUPf[70Ik[jI<3
 R6
 33
-R46
+R7
 !i10b 1
-R76
+R8
 R83
 R84
 !i113 1

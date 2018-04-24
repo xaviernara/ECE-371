@@ -7,7 +7,9 @@ entity p3_decode_wb_no_bypass is
 		 I5SIZE : positive := 5;
  		 I8SIZE : positive := 8;
  		 I16SIZE : positive := 16;
-		 OSIZE : positive := 32);
+		 OSIZE : positive := 32;
+		 R0_HW : boolean := true
+		 BYPASS : boolean := true);
 
 
 	port ( ReadData_MEMORY_input : in std_logic_vector(31 downto 0);
@@ -105,7 +107,8 @@ WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 -------------------------------------DECODE logic gates and connections ----------------------------------------------------
 
 	REGISTAR_FILE : entity work.arf32(structure)
-		generic map(SIZE=>SIZE,R0_HW=>R0_HW,BYPASS=>BYPASS)
+		--generic map(SIZE=>SIZE,R0_HW=>R0_HW,BYPASS=>BYPASS)
+		generic map(SIZE=>SIZE,R0_HW=>R0_HW)
 		port map(	clk => clk,
 				rst => rst,
 				rdAddr1 => rs,
@@ -115,9 +118,10 @@ WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 				wren => wren,
 				wrData=>WriteData_out_WB,
 				--wrData => WDinD,
-				rdData1 => rd1outD,
-				rdData2 => rd2outD);
+				rdData1 => rd1_out_DECODE,
+				rdData2 => rd2_out_DECODE);
 
+-------------------------------------------DECODE EXTENSION LOGIC----------------------------------
 	Zero_EXTforSHAMT : entity work.elu(dataflow)
 		generic map(ISIZE=>I5SIZE,OSIZE=>OSIZE)
 		port map(	A => shamt, 
@@ -135,13 +139,14 @@ WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 		port map(	A => immediate16, 
 				arith => selEXT,
 				Y => IMMEXT32_out_DECODE);
+--------------------------------------------------------------------------------------
 
 	selWriteAddress : entity work.mux_4to1(behavior)
 		generic map(SIZE => I5SIZE )
 		port map(	w0 => rd, 
 				w1 => rt,
 				w2 => R31,
-				w3 => R31,    --I DONT KNOW HOW TO FIX IT, IT SHOULD BE ZERO
+				w3 => "00000",    --I DONT KNOW HOW TO FIX IT, IT SHOULD BE ZERO
 				s => selWA,
 				f => WA_out_DECODE);
 

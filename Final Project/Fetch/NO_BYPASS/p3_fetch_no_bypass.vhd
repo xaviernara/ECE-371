@@ -2,7 +2,6 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-
 entity p3_fetch_no_bypass is
 	generic (SIZE : positive :=32);
 	port(Branch_Mux_Control_RT_GSED: in std_logic_vector(1 downto 0); --FROM CONTROL UNIT

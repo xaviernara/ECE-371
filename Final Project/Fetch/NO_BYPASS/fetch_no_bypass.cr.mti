@@ -131,6 +131,20 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture mixed of mux_4to1
 -- Loading entity decode_2to4
 
+} {} {}} {H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p3_fetch_no_bypass
+-- Compiling architecture structure of p3_fetch_no_bypass
+-- Loading package altera_mf_components
+-- Loading entity instructionROM
+-- Loading entity mux_4to1
+-- Loading entity cla_8bit
+-- Loading entity dflop
+
 } {} {}} {{H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass}} {0 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/Final Project/Fetch/NO_BYPASS/p3_fetch_no_bypass}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 08:13:45 on Apr 15,2018

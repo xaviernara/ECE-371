@@ -22,9 +22,9 @@ V?=lni7:Fi[9GZMPND6bUa0
 !s100 9D1LTjf9MkFahWOOzoR>T0
 Z7 OV;C;10.5b;63
 33
-Z8 !s110 1524523698
+Z8 !s110 1524611201
 !i10b 1
-Z9 !s108 1524523697.000000
+Z9 !s108 1524611201.000000
 Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd|
 Z11 !s107 H:/ECE 371/ECE-371/lab 8/task 2/arf32.vhd|
 !i113 1
@@ -66,9 +66,9 @@ VEDjkL6d>GKJ6`D`7[8`[m1
 !s100 930j_T_MGV0gEnZU>U`QV1
 R7
 33
-Z20 !s110 1524523696
+Z20 !s110 1524611199
 !i10b 1
-Z21 !s108 1524523696.000000
+Z21 !s108 1524611199.000000
 Z22 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd|
 Z23 !s107 H:/ECE 371/ECE-371/lab 8/task 1/arf8.vhd|
 !i113 1
@@ -110,9 +110,9 @@ V41H1R1n79QRJ`@h^W;O3d1
 !s100 56YH8FIUVX[a7jKTiS_]`1
 R7
 33
-Z28 !s110 1524523699
+Z28 !s110 1524611202
 !i10b 1
-Z29 !s108 1524523699.000000
+Z29 !s108 1524611202.000000
 Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 4/task 3/btc_32bit.vhd|
 Z31 !s107 H:/ECE 371/ECE-371/lab 4/task 3/btc_32bit.vhd|
 !i113 1
@@ -154,9 +154,9 @@ R7
 33
 R28
 !i10b 1
-Z37 !s108 1524523698.000000
-Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 4/task 2/btc_8bit.vhd|
-Z39 !s107 H:/ECE 371/ECE-371/lab 4/task 2/btc_8bit.vhd|
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 4/task 2/btc_8bit.vhd|
+Z38 !s107 H:/ECE 371/ECE-371/lab 4/task 2/btc_8bit.vhd|
 !i113 1
 R12
 R13
@@ -174,28 +174,28 @@ R7
 33
 R28
 !i10b 1
+R9
 R37
 R38
-R39
 !i113 1
 R12
 R13
 Ecla_2bit
-Z40 w1518648340
+Z39 w1518648340
 R2
 R3
 R4
-Z41 8H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd
-Z42 FH:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd
+Z40 8H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd
+Z41 FH:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd
 l0
 L4
 VKbD1`9fQ1LE?f]LGkSH561
 !s100 FOdT4ZbHf`e=VYO_I9JWE3
 R7
 33
-Z43 !s110 1524523697
+Z42 !s110 1524611200
 !i10b 1
-R9
+Z43 !s108 1524611200.000000
 Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd|
 Z45 !s107 H:/ECE 371/ECE-371/lab 5/task 1/cla_2bit.vhd|
 !i113 1
@@ -212,9 +212,9 @@ VQaKKkibEA14zmf=l=cRoL2
 !s100 1c^9zT313k;JYOAJJ`Q^33
 R7
 33
-R43
+R42
 !i10b 1
-R9
+R43
 R44
 R45
 !i113 1
@@ -233,9 +233,9 @@ V1Q;IXcVZ7KlDP3Rh5@VQo0
 !s100 ?d3D6ZAAQRZN7QdC_6]JD3
 R7
 33
-R43
+R42
 !i10b 1
-R9
+R43
 Z51 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit.vhd|
 Z52 !s107 H:/ECE 371/ECE-371/lab 5/task 1/cla_8bit.vhd|
 !i113 1
@@ -253,9 +253,9 @@ VFT2`JaiAB^aTkRNI09^3;2
 !s100 V@;z^R69d4b:78YN70:TN1
 R7
 33
-R43
+R42
 !i10b 1
-R9
+R43
 R51
 R52
 !i113 1
@@ -274,9 +274,9 @@ V11j>ZOeKF^hM`TKD34VMN3
 !s100 3Q`URLJ:o9KNC[5BPdT]e2
 R7
 33
-R20
+R42
 !i10b 1
-R21
+R43
 Z56 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 5/task 1/clg_2bit.vhd|
 Z57 !s107 H:/ECE 371/ECE-371/lab 5/task 1/clg_2bit.vhd|
 !i113 1
@@ -292,9 +292,9 @@ V<nP4o^m[>e4@M<=0dGcgU3
 !s100 _e:AcVehFFm>SKOgE`mjc2
 R7
 33
-R20
+R42
 !i10b 1
-R21
+R43
 R56
 R57
 !i113 1
@@ -316,7 +316,7 @@ R7
 33
 R8
 !i10b 1
-R37
+R9
 Z61 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 4/task 1/cpc_2bit.vhd|
 Z62 !s107 H:/ECE 371/ECE-371/lab 4/task 1/cpc_2bit.vhd|
 !i113 1
@@ -335,7 +335,7 @@ R7
 33
 R8
 !i10b 1
-R37
+R9
 R61
 R62
 !i113 1
@@ -354,9 +354,9 @@ V:GG0[1bh7PjB]l]H]NK893
 !s100 Vjb793hE4CaV2lPbkAdNj3
 R7
 33
-Z65 !s110 1524523693
+Z65 !s110 1524611197
 !i10b 1
-Z66 !s108 1524523693.000000
+Z66 !s108 1524611197.000000
 Z67 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 2/dec_2to4.vhd|
 Z68 !s107 H:/ECE 371/ECE-371/lab 8/task 2/dec_2to4.vhd|
 !i113 1
@@ -393,9 +393,9 @@ V4=bnKXOF8C=B2`ag`Th<K2
 !s100 oLoZ17@?NlATOL0K?=5Jk0
 R7
 33
-Z72 !s110 1524523694
+Z72 !s110 1524611198
 !i10b 1
-Z73 !s108 1524523694.000000
+Z73 !s108 1524611198.000000
 Z74 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd|
 Z75 !s107 H:/ECE 371/ECE-371/lab 8/task 1/dec_3to8.vhd|
 !i113 1
@@ -510,11 +510,11 @@ VFi24K;VShIVc4m[N?Pk@41
 !s100 IiU]3oK>1jLg=JU:I^N6f1
 R7
 33
-Z87 !s110 1524523695
+R20
 !i10b 1
-Z88 !s108 1524523695.000000
-Z89 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd|
-Z90 !s107 H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd|
+R73
+Z87 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd|
+Z88 !s107 H:/ECE 371/ECE-371/lab 8/task 1/mux_2to1.vhd|
 !i113 1
 R12
 R13
@@ -528,22 +528,22 @@ V^nR<X@SiU^8RGc0i:AIZe3
 !s100 1KNENio9GEhFUZ8A7HFUI1
 R7
 33
-R87
+R20
 !i10b 1
+R73
+R87
 R88
-R89
-R90
 !i113 1
 R12
 R13
 Emux_4to1
-Z91 w1519845346
+Z89 w1519845346
 R1
 R2
 R3
 R4
-Z92 8H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd
-Z93 FH:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd
+Z90 8H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd
+Z91 FH:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd
 l0
 L5
 VmOG6c8hV6EoKNGaYQ`B;@1
@@ -552,9 +552,9 @@ R7
 33
 R72
 !i10b 1
-R73
-Z94 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd|
-Z95 !s107 H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd|
+R66
+Z92 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd|
+Z93 !s107 H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd|
 !i113 1
 R12
 R13
@@ -572,9 +572,9 @@ R7
 33
 R72
 !i10b 1
-R73
-R94
-R95
+R66
+R92
+R93
 !i113 1
 R12
 R13
@@ -583,19 +583,19 @@ R17
 R2
 R3
 R4
-Z96 8H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd
-Z97 FH:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd
+Z94 8H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd
+Z95 FH:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd
 l0
 L4
 VI5gflT^Z>_jIc8kYCS2XE1
 !s100 J0BR24mz5JaFI2_DJIP;80
 R7
 33
-R87
+R20
 !i10b 1
-R88
-Z98 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd|
-Z99 !s107 H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd|
+R21
+Z96 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd|
+Z97 !s107 H:/ECE 371/ECE-371/lab 8/task 1/mux_8to1.vhd|
 !i113 1
 R12
 R13
@@ -609,16 +609,16 @@ Vg;lYW?:BOD6BozJ<mM=eR0
 !s100 UzV72M:H1SXUJiK^7[<j41
 R7
 33
-R87
+R20
 !i10b 1
-R88
-R98
-R99
+R21
+R96
+R97
 !i113 1
 R12
 R13
 Ep3_decode_wb_no_bypass
-w1524523651
+w1524611194
 R1
 R2
 R3
@@ -627,8 +627,8 @@ R4
 FH:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd
 l0
 L5
-VH;b1i0zOO6OcmWeWCBz3Q0
-!s100 L5<YakU9>E`egYVSZ;1Rh0
+V``4TP0>HJkNBmUIOlBJoT0
+!s100 z5SM[o]4jCLSX98Uf^f@71
 R7
 33
 R28

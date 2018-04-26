@@ -104,7 +104,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity elu
 -- Compiling architecture dataflow of elu
 
-} {} {}} {H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd} {0 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd}
+} {} {}} {H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -112,8 +112,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity p3_decode_wb_no_bypass
 -- Compiling architecture structure of p3_decode_wb_no_bypass
-** Error: H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd(65): (vcom-1294) Declaration with designator "shamt" already exists in this region.
-** =====> Prior declaration of "SHAMT" is at H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd(28).
 -- Loading entity arf32
 -- Loading entity elu
 -- Loading entity mux_4to1
@@ -121,11 +119,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading entity mux_2to1
 -- Loading entity btc_32bit
 -- Loading entity dflop
-** Error (suppressible): H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd(103): (vcom-1272) Length of expected is 5; length of actual is 32.
-** Error (suppressible): H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd(104): (vcom-1272) Length of expected is 5; length of actual is 32.
-** Error: H:/ECE 371/ECE-371/Final Project/Decode/NO_BYPASS/p3_decode_wb_no_bypass.vhd(236): VHDL Compiler exiting
 
-} {9.0 10.0 20.0 21.0} {}} {{H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd}
+} {} {}} {{H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd}} {1 {vcom -work work -2002 -explicit {H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 09:40:23 on Apr 23,2018
 vcom -reportprogress 300 -work work -2002 -explicit H:/ECE 371/ECE-371/lab 8/task 2/mux_4to1.vhd 

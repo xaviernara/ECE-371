@@ -8,29 +8,28 @@ entity p3_decode_wb_no_bypass is
  		 I8SIZE : positive := 8;
  		 I16SIZE : positive := 16;
 		 OSIZE : positive := 32;
-		 R0_HW : boolean := true
+		 R0_HW : boolean := true;
 		 BYPASS : boolean := true);
 
 
-	port ( ReadData_MEMORY_input : in std_logic_vector(31 downto 0);
+	port (  ReadData_MEMORY_input : in std_logic_vector(31 downto 0);
 		ALUWriteAddress_EXECUTE_input : in std_logic_vector(31 downto 0);
 		WriteAddress_WB_Input_DECODE : in std_logic_vector(4 downto 0);
-		IsLoadData_WB_SELECT : in std_logic;
+		IsLoadData_WB_SELECT : in std_logic; ----FROM CONTROL UNIT
 -----------------------------------------------(above)WRITE BACK INPUT SIGNALS-----------------------------------
 ---------------------------------------------------------------------------------------------------
 
 -----------------------------------------------(below)DECODE INPUT SIGNALS-----------------------------------
-
-	      Branch_Mux_Control_RT_GSED : in std_logic_vector(1 downto 0); --FROM CONTROL UNIT
-	      PC_DECODE :IN std_logic_vector (4 downto 0);
+	     -- Branch_Mux_Control_RT_GSED : in std_logic_vector(1 downto 0); --FROM CONTROL UNIT
+	      --PC_DECODE :IN std_logic_vector (4 downto 0);
 	      --PC_PLUS1_DECODE :IN std_logic_vector (4 downto 0);
-	      WriteDataW_IN :IN std_logic_vector (31 downto 0);
-	      WriteAddressW_IN :IN std_logic_vector (31 downto 0);
-	      SHAMT :IN std_logic_vector (15 downto 0);
-	      RegDst_DECODE :IN std_logic;
-	      RT_DECODE:IN std_logic;
-	      RD_DECODE:IN std_logic;
-
+	      --WriteDataW_IN :IN std_logic_vector (31 downto 0);
+--	      WriteAddressW_IN :IN std_logic_vector (31 downto 0);
+--	      --SHAMT :IN std_logic_vector (15 downto 0);
+--	      RegDst_DECODE :IN std_logic;
+--	      RT_DECODE:IN std_logic;
+--	      RD_DECODE:IN std_logic;
+--
 		INSTRUCTION_in_DECODE : in std_logic_vector(31 downto 0);
 		PC_1_in_DECODE : in std_logic_vector(31 downto 0);
 		--WA_in_REG_FILE_DECODE : in std_logic_vector(4 downto 0);
@@ -82,7 +81,7 @@ signal WA_out_DECODE  : std_logic_vector(4 downto 0);
 
 signal WriteAddress_out_WB : std_logic_vector(4 downto 0);
 signal WriteData_out_WB : std_logic_vector(4 downto 0);
-
+--------------------------------------------------------------------------------------------------------------------
 
 begin 
 -------------------------------------DECODE LOGIC signal intermediate signal assgnment(below)----------------------------------------------------
@@ -101,7 +100,7 @@ begin
 	
 -------------------------------------WB LOGIC signal intermediate signal assgnment------------------------------------
 
-WriteAddress_out_WB<= WriteData_out_WB_in_DECODE;
+WriteAddress_out_WB<= WriteAddress_out_WB_in_DECODE;
 WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 
 -------------------------------------DECODE logic gates and connections ----------------------------------------------------
@@ -229,7 +228,10 @@ WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 ------------------------------------------------------------------------------------------------------------------------------
 MUX_for_WB : entity work.mux_2to1(mixed)
 generic map(SIZE=>SIZE)
-port map(w0 => ReadData_MEMORY_input,w1 => ALUWriteAddress_EXECUTE_input,sel => IsLoadData_WB_SELECT,f => WriteData_out_WB_in_DECODE);
+port map(w0 => ReadData_MEMORY_input,
+	w1 => ALUWriteAddress_EXECUTE_input,
+	sel => IsLoadData_WB_SELECT,
+	f => WriteData_out_WB_in_DECODE);
 
 --WriteAddress_WB_in_DECODE <= WriteAddress_In_DECODE;
 

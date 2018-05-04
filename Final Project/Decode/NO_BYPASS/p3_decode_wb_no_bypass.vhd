@@ -32,8 +32,8 @@ entity p3_decode_wb_no_bypass is
 --
 		INSTRUCTION_in_DECODE : in std_logic_vector(31 downto 0);
 		PC_1_in_DECODE : in std_logic_vector(31 downto 0);
-		--WA_in_REG_FILE_DECODE : in std_logic_vector(4 downto 0);
-		--WD_in_REG_FILE_DECODE : in std_logic_vector(31 downto 0);
+		WA_in_REG_FILE_DECODE : in std_logic_vector(4 downto 0);
+		WD_in_REG_FILE_DECODE : in std_logic_vector(31 downto 0);
 		wren,clk,rst : in std_logic;
 		selEXT : in std_logic;
 		selWA : in std_logic_vector(1 downto 0);
@@ -114,12 +114,14 @@ WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 				rst => rst,
 				rdAddr1 => rs,
 				rdAddr2 => rd,
-				wrAddr=> WriteAddress_out_WB,
+				--wrAddr=> WriteAddress_out_WB,
 				--wrAddr => WAinD,
+				wrAddr => WA_in_REG_FILE_DECODE,
 				wren => wren,
-				wrData=>WriteData_out_WB,
+				--wrData=>WriteData_out_WB,
 				--wrData=>WriteData_out_WB_in_DECODE,
 				--wrData => WDinD,
+				wrData => WD_in_REG_FILE_DECODE,
 				rdData1 => rd1_out_DECODE,
 				rdData2 => rd2_out_DECODE);
 

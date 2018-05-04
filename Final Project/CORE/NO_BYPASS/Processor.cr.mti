@@ -1,0 +1,664 @@
+{C:/Users/xarichar/Desktop/Full processor/execute/dflop.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\execute\dflop.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dflop
+-- Compiling architecture behavior of dflop
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/execute/dflop.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/execute/dflop.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:30 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/execute/dflop.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dflop
+-- Compiling architecture behavior of dflop
+End time: 16:33:30 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/elu.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/elu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity elu
+-- Compiling architecture dataflow of elu
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/mcu_piped/p3_piped_mcu_no_bypass}} {0 {vcom -work work -2008 -explicit {C:\Users\xarichar\Desktop\Full processor\mcu_piped\p3_piped_mcu_no_bypass}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:33 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:\Users\xarichar\Desktop\Full processor\mcu_piped\p3_piped_mcu_no_bypass 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p3_piped_mcu_no_bypass
+-- Compiling architecture STRUCTURE of P3_PIPED_MCU_NO_BYPASS
+** Error: C:\Users\xarichar\Desktop\Full processor\mcu_piped\p3_piped_mcu_no_bypass(16): near ".": (vcom-1576) expecting STRING or IDENTIFIER or <<.
+** Error: C:\Users\xarichar\Desktop\Full processor\mcu_piped\p3_piped_mcu_no_bypass(26): near "EOF": (vcom-1576) expecting ';'.
+End time: 16:33:33 on May 03,2018, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
+
+} {11.0 13.0} {}} {C:/Users/xarichar/Desktop/Full processor/mcu_piped/p3_piped_mcu_no_bypass} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\mcu_piped\p3_piped_mcu_no_bypass}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p3_piped_mcu_no_bypass
+-- Compiling architecture STRUCTURE of P3_PIPED_MCU_NO_BYPASS
+-- Loading entity dflop
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/arf8.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/arf8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:29 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/arf8.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arf8
+-- Compiling architecture structure of arf8
+-- Loading entity dflop
+-- Loading entity decode_3to8
+-- Loading entity mux_8to1
+End time: 16:33:29 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/btc_8bit.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/btc_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:30 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/btc_8bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity btc_8bit
+-- Compiling architecture structure of btc_8bit
+-- Loading package NUMERIC_STD
+-- Loading entity cpc_2bit
+End time: 16:33:30 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/instructionROM.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\Fetch\NO_BYPASS\instructionROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity instructionROM
+-- Compiling architecture SYN of instructionrom
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/p3_decode_wb_no_bypass.vhd}} {0 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/p3_decode_wb_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:32 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/p3_decode_wb_no_bypass.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p3_decode_wb_no_bypass
+-- Compiling architecture structure of p3_decode_wb_no_bypass
+-- Loading entity arf32
+-- Loading entity elu
+-- Loading entity mux_4to1
+-- Loading entity cla_8bit
+-- Loading entity mux_2to1
+** Error: C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/p3_decode_wb_no_bypass.vhd(171): (vcom-1484) Unknown formal identifier "sel".
+-- Loading entity btc_32bit
+-- Loading entity dflop
+** Error: C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/p3_decode_wb_no_bypass.vhd(188): (vcom-1484) Unknown formal identifier "din".
+** Error: C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/p3_decode_wb_no_bypass.vhd(189): VHDL Compiler exiting
+End time: 16:33:32 on May 03,2018, Elapsed time: 0:00:00
+Errors: 3, Warnings: 0
+
+} {16.0 17.0 19.0 21.0} {}} {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/btc_32bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/btc_32bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity btc_32bit
+-- Compiling architecture structure of btc_32bit
+-- Loading entity btc_8bit
+-- Loading entity cpc_2bit
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/p3_core_no_bypass.vhd}} {0 {vcom -work work -2008 -explicit {C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:32 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity P3_CORE_NO_BYPASS
+-- Compiling architecture structure of p3_core_no_bypass
+-- Loading package NUMERIC_STD
+-- Loading entity p3_fetch_no_bypass
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(81): (vcom-1136) Unknown identifier "JRTA_INST".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(82): (vcom-1136) Unknown identifier "JTA_INSTR".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(77): (vcom-1484) Unknown formal identifier "Branch_Mux_Control_RTGSED".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(80): (vcom-1484) Unknown formal identifier "BTA_INF".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(81): (vcom-1484) Unknown formal identifier "JRTA_INF".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(82): (vcom-1484) Unknown formal identifier "JTA_INF".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(83): (vcom-1484) Unknown formal identifier "rd1ineinD".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(84): (vcom-1484) Unknown formal identifier "PC1inD".
+-- Loading entity p3_decode_wb_no_bypass
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(108): near "ops": (vcom-1576) expecting ',' or ')'.
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(112): Statement cannot be labeled.
+-- Loading entity p3_execute_no_bypass
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(117): (vcom-1484) Unknown formal identifier "READDATE2E".
+-- Loading entity p3_mem_no_bypass
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(135): (vcom-1136) Unknown identifier "CON_EXEC_PIPE".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(142): (vcom-1136) Unknown identifier "ALURM".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(143): (vcom-1484) Unknown formal identifier "WRITEADDRESSWB".
+-- Loading entity p3_wb_no_bypass
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(149): (vcom-1136) Unknown identifier "ALURM".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(150): (vcom-1136) Unknown identifier "WAOUM".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(148): (vcom-1484) Unknown formal identifier "RDinW".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(149): (vcom-1484) Unknown formal identifier "ALUResult2InW".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(150): (vcom-1484) Unknown formal identifier "WAInW".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(151): (vcom-1484) Unknown formal identifier "selWD".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(153): (vcom-1484) Unknown formal identifier "WDinD".
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(154): (vcom-1484) Unknown formal identifier "WAinD".
+-- Loading entity p3_mcu_no_bypass
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(158): (vcom-1136) Unknown identifier "CON_FUNCT".
+-- Loading entity p3_piped_mcu_no_bypass
+** Error: C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd(189): VHDL Compiler exiting
+End time: 16:33:32 on May 03,2018, Elapsed time: 0:00:00
+Errors: 24, Warnings: 0
+
+} {12.0 20.0 21.0 23.0 24.0 25.0 26.0 29.0 30.0 38.0 39.0 40.0 41.0 42.0} {}} {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_4to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4to1
+-- Compiling architecture mixed of mux_4to1
+-- Loading entity decode_2to4
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cla_8bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cla_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_8bit
+-- Compiling architecture structure of cla_8bit
+-- Loading entity cla_2bit
+-- Loading entity clg_2bit
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cpc_2bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cpc_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpc_2bit
+-- Compiling architecture dataflow of cpc_2bit
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/control/p3_mcu_no_bypass.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/control/p3_mcu_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:29 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/control/p3_mcu_no_bypass.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity p3_mcu_no_bypass
+-- Compiling architecture STRUCTURE of p3_mcu_no_bypass
+End time: 16:33:29 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_4to1.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:29 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_4to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_4to1
+-- Compiling architecture mixed of mux_4to1
+-- Loading entity decode_2to4
+End time: 16:33:29 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/btc_8bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/btc_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity btc_8bit
+-- Compiling architecture structure of btc_8bit
+-- Loading package NUMERIC_STD
+-- Loading entity cpc_2bit
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd}} {0 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:32 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p3_fetch_no_bypass
+-- Compiling architecture structure of p3_fetch_no_bypass
+-- Loading package altera_mf_components
+-- Loading entity instructionROM
+-- Loading entity mux_4to1
+-- Loading entity cla_8bit
+-- Loading entity dflop
+** Error: C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd(59): (vcom-1484) Unknown formal identifier "din".
+** Error: C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd(59): VHDL Compiler exiting
+End time: 16:33:33 on May 03,2018, Elapsed time: 0:00:01
+Errors: 2, Warnings: 0
+
+} {16.0 18.0} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_8to1.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_8to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:29 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_8to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_8to1
+-- Compiling architecture structure of mux_8to1
+-- Loading package NUMERIC_STD
+-- Loading entity mux_4to1
+End time: 16:33:29 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:33 on May 03,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arf32
+-- Compiling architecture structure of arf32
+-- Loading entity decode_3to8
+** Error: C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd(21): (vcom-1436) Actual expression (infix expression) of formal "w" is not globally static.
+-- Loading entity arf8
+-- Loading entity mux_8to1
+** Error: C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd(39): (vcom-1436) Actual expression (infix expression) of formal "S" is not globally static.
+** Error: C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd(43): (vcom-1436) Actual expression (infix expression) of formal "S" is not globally static.
+** Error: C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd(44): VHDL Compiler exiting
+End time: 16:33:33 on May 03,2018, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {12.0 13.0 15.0 18.0} {}} {C:/Users/xarichar/Desktop/Full processor/execute/p3_execute_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/execute/p3_execute_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity p3_execute_no_bypass
+-- Compiling architecture structure of p3_execute_no_bypass
+-- Loading package NUMERIC_STD
+-- Loading entity pride_alu_behave
+-- Loading entity mux_4to1
+-- Loading entity dflop
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:30 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pride_alu_behave
+-- Compiling architecture behavior of pride_alu_behave
+** Warning: C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd(66): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+** Warning: C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd(69): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+End time: 16:33:30 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/mux_2to1.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:30 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/mux_2to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture mixed of mux_2to1
+End time: 16:33:30 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/memory/p3_mem_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\memory\p3_mem_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity p3_mem_no_bypass
+-- Compiling architecture structure of p3_mem_no_bypass
+-- Loading package altera_mf_components
+-- Loading entity dataRam
+-- Loading entity dflop
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/instructionROM.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/instructionROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:30 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/instructionROM.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity instructionROM
+-- Compiling architecture SYN of instructionrom
+End time: 16:33:30 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/memory/task2/dataRam.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/memory/task2/dataRam.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:31 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/memory/task2/dataRam.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity dataRam
+-- Compiling architecture SYN of dataram
+End time: 16:33:31 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/p3_fetch_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\Fetch\NO_BYPASS\p3_fetch_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p3_fetch_no_bypass
+-- Compiling architecture structure of p3_fetch_no_bypass
+-- Loading package altera_mf_components
+-- Loading entity instructionROM
+-- Loading entity mux_4to1
+-- Loading entity dflop
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/control/p3_mcu_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/control/p3_mcu_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity p3_mcu_no_bypass
+-- Compiling architecture STRUCTURE of p3_mcu_no_bypass
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/clg_2bit.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/clg_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:31 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/clg_2bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_2bit
+-- Compiling architecture dataflow of clg_2bit
+End time: 16:33:31 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/mux_2to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\Fetch\NO_BYPASS\mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1
+-- Compiling architecture mixed of mux_2to1
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/execute/decode_2to4.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/execute/decode_2to4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode_2to4
+-- Compiling architecture behavior of decode_2to4
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/decode_3to8.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/decode_3to8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode_3to8
+-- Compiling architecture structure of decode_3to8
+-- Loading entity decode_2to4
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/p3_core_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\p3_core_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity P3_CORE_NO_BYPASS
+-- Compiling architecture structure of p3_core_no_bypass
+-- Loading package NUMERIC_STD
+-- Loading entity p3_fetch_no_bypass
+-- Loading entity p3_decode_wb_no_bypass
+-- Loading entity p3_execute_no_bypass
+-- Loading entity p3_mem_no_bypass
+-- Loading entity p3_mcu_no_bypass
+-- Loading entity p3_piped_mcu_no_bypass
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/arf8.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/arf8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arf8
+-- Compiling architecture structure of arf8
+-- Loading entity dflop
+-- Loading entity decode_3to8
+-- Loading entity mux_8to1
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/execute/p3_execute_no_bypass.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/execute/p3_execute_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:30 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/execute/p3_execute_no_bypass.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity p3_execute_no_bypass
+-- Compiling architecture structure of p3_execute_no_bypass
+-- Loading package NUMERIC_STD
+-- Loading entity pride_alu_behave
+-- Loading entity mux_4to1
+-- Loading entity dflop
+End time: 16:33:30 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/p3_decode_wb_no_bypass.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\Decode _ Write Back\NO_BYPASS\p3_decode_wb_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p3_decode_wb_no_bypass
+-- Compiling architecture structure of p3_decode_wb_no_bypass
+-- Loading entity arf32
+-- Loading entity elu
+-- Loading entity mux_4to1
+-- Loading entity cla_8bit
+-- Loading entity mux_2to1
+-- Loading entity btc_32bit
+-- Loading entity dflop
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/execute/decode_2to4.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/execute/decode_2to4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:30 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/execute/decode_2to4.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode_2to4
+-- Compiling architecture behavior of decode_2to4
+End time: 16:33:30 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/cla_2bit.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/cla_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:29 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/cla_2bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_2bit
+-- Compiling architecture mixed of cla_2bit
+-- Loading entity clg_2bit
+End time: 16:33:29 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/clg_2bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/clg_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clg_2bit
+-- Compiling architecture dataflow of clg_2bit
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/arf32.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\Fetch\NO_BYPASS\arf32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity arf32
+-- Compiling architecture structure of arf32
+-- Loading entity decode_3to8
+-- Loading entity arf8
+-- Loading entity mux_8to1
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/decode_3to8.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/decode_3to8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:31 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/decode_3to8.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode_3to8
+-- Compiling architecture structure of decode_3to8
+-- Loading entity decode_2to4
+End time: 16:33:31 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_8to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/mux_8to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_8to1
+-- Compiling architecture structure of mux_8to1
+-- Loading package NUMERIC_STD
+-- Loading entity mux_4to1
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/elu.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/elu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:29 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/elu.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity elu
+-- Compiling architecture dataflow of elu
+End time: 16:33:29 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/cla_2bit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\xarichar\Desktop\Full processor\Decode _ Write Back\NO_BYPASS\cla_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_2bit
+-- Compiling architecture mixed of cla_2bit
+-- Loading entity clg_2bit
+
+} {} {}} {C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd} {2 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pride_alu_behave
+-- Compiling architecture behavior of pride_alu_behave
+** Warning: C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd(66): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+** Warning: C:/Users/xarichar/Desktop/Full processor/execute/task 2/pride_alu_behave.vhd(69): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd}} {0 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:32 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity p3_wb_no_bypass
+-- Compiling architecture structure of p3_wb_no_bypass
+-- Loading entity mux_2to1
+** Error: C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd(23): (vcom-1136) Unknown identifier "WriteData_WB_output".
+** Error: C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/Write Back/NO_BYPASS/p3_wb_no_bypass.vhd(28): VHDL Compiler exiting
+End time: 16:33:32 on May 03,2018, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
+
+} {11.0 13.0} {}} {C:/Users/xarichar/Desktop/Full processor/memory/task2/dataRam.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Users/xarichar/Desktop/Full processor/memory/task2/dataRam.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity dataRam
+-- Compiling architecture SYN of dataram
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/btc_32bit.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/btc_32bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:29 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Decode _ Write Back/NO_BYPASS/btc_32bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity btc_32bit
+-- Compiling architecture structure of btc_32bit
+-- Loading entity btc_8bit
+-- Loading entity cpc_2bit
+End time: 16:33:29 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cla_8bit.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cla_8bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:31 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cla_8bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cla_8bit
+-- Compiling architecture structure of cla_8bit
+-- Loading entity cla_2bit
+-- Loading entity clg_2bit
+End time: 16:33:31 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cpc_2bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cpc_2bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:31 on May 03,2018
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/xarichar/Desktop/Full processor/Fetch/NO_BYPASS/cpc_2bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpc_2bit
+-- Compiling architecture dataflow of cpc_2bit
+End time: 16:33:31 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/xarichar/Desktop/Full processor/memory/p3_mem_no_bypass.vhd}} {1 {vcom -work work -2008 -explicit {C:/Users/xarichar/Desktop/Full processor/memory/p3_mem_no_bypass.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:33:31 on May 03,2018
+vcom -reportprogress 300 -work work -2008 -explicit C:/Users/xarichar/Desktop/Full processor/memory/p3_mem_no_bypass.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity p3_mem_no_bypass
+-- Compiling architecture structure of p3_mem_no_bypass
+-- Loading package altera_mf_components
+-- Loading entity dataRam
+-- Loading entity dflop
+End time: 16:33:31 on May 03,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}}

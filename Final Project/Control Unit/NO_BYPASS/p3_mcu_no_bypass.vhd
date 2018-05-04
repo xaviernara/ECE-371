@@ -1,0 +1,79 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity p3_mcu_no_bypass is
+	PORT(
+	FUNCT_CODE : 	IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+	OPCODE :	IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+	GSE :		IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+	RT :		IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+
+	CONTROL_OUT :	OUT STD_LOGIC_VECTOR(16 DOWNTO 0));
+
+end entity p3_mcu_no_bypass;
+
+architecture STRUCTURE of p3_mcu_no_bypass is
+	SIGNAL CONTROL_SIG: STD_LOGIC_VECTOR(19 DOWNTO 0);
+
+begin
+	CONTROL_SIG <= OPCODE & FUNCT_CODE & RT & GSE;
+
+PROCESS(CONTROL_SIG)
+	BEGIN
+		CASE CONTROL_SIG IS 
+					WHEN "00000001010000000---"         => control_out  <= "10010001010100100"; --ADD
+			WHEN "001000------00000---"         => control_out  <= "10110001011000100"; -- ADDi
+			WHEN "001001------00000---"         => control_out  <= "10110001000000100"; -- ADDIU
+                        WHEN "00000001010100000---"         => control_out  <= "10110001000100100"; --ADDU
+			WHEN "00000001100000000---"         => control_out  <= "10010000000100100"; -- AND
+			WHEN "001100------00000---"         => control_out  <= "10110000000000100"; -- ANDI
+			WHEN "000100------00000--0"         => control_out  <= "0--001------00000"; --BEQ - 0
+			WHEN "000100------00010--1"         => control_out  <= "0--001------10000"; --BEQ - 1
+			WHEN "000001------000000-0"         => control_out  <= "0--001------00100"; -- BGEZ - 0
+			WHEN "000001------000000-1"         => control_out  <= "0--001------00100"; -- BGEZ - 1
+			WHEN "000001------000001-0"         => control_out  <= "0--001------00100"; -- BGEZ - 2
+			WHEN "000001------000101-1"         => control_out  <= "0--001------10100"; -- BGEZ - 3
+			WHEN "000111------000000-0"         => control_out  <= "0--001------00100"; -- BGTZ - 0
+			WHEN "000111------000000-1"         => control_out  <= "0--001------00100"; -- BGTZ - 1
+			WHEN "000111------000101-0"         => control_out  <= "0--001------10100"; -- BGTZ - 2
+			WHEN "000111------000001-1"         => control_out  <= "0--001------00100"; -- BGTZ - 3
+                        WHEN "000110------00000-00"         => control_out  <= "0--001------00100"; -- BLEZ - 0
+			WHEN "000110------00000-01"         => control_out  <= "0--001------00100"; -- BLEZ - 1
+			WHEN "000110------00000-10"         => control_out  <= "0--001------00100"; -- BLEZ - 2
+			WHEN "000110------00010-11"         => control_out  <= "0--001------10100"; -- BLEZ - 3
+			WHEN "000001------00000-00"         => control_out  <= "0--001------00100"; -- BLTZ - 0
+			WHEN "000001------00000-01"         => control_out  <= "0--001------00100"; -- BLTZ - 1
+			WHEN "000001------00010-10"         => control_out  <= "0--001------10100"; -- BLTZ - 2
+			WHEN "000001------00000-11"         => control_out  <= "0--001------00100"; -- BLTZ - 3
+			WHEN "000101------00000---"         => control_out  <= "0--001--------000"; -- BNE
+			WHEN "000010------00000---"         => control_out  <= "101000------11100"; -- J
+			WHEN "000000------00011---"         => control_out  <= "11000011001011111"; --JAL
+			WHEN "00000000100100011---"         => control_out  <= "10000011001001111"; -- JALR
+			WHEN "00000000100000000---"         => control_out  <= "10010011001001100"; -- JR
+                        WHEN "001111------00110---"         => control_out  <= "11010011000000110"; --LUI
+			WHEN "010111------00100---"         => control_out  <= "11010001000000100"; -- LW
+			WHEN "00000001101100100---"         => control_out  <= "10010000010100100"; -- NOR
+			WHEN "00000001100100100---"         => control_out  <= "10010000010100100"; --OR
+			WHEN "001100------00100---"         => control_out  <= "10110000010000100"; -- ORI
+			WHEN "00000000000000101---"         => control_out  <= "10010011000100101"; -- SLL
+                        WHEN "00000000010000100---"         => control_out  <= "10010011000100100"; --SLLV
+			WHEN "00000010101000100---"         => control_out  <= "10010001010100100"; -- SLT
+			WHEN "001010------00100---"         => control_out  <= "10010001110000100"; -- SLTI
+			WHEN "001011------00100---"         => control_out  <= "10010010100000100"; --SLTIU
+			WHEN "00000010101100100---"         => control_out  <= "10010010100100100"; -- SLTU
+			WHEN "00000000001100101---"         => control_out  <= "10010011110100101"; -- SRA
+                        WHEN "00000000011100100---"         => control_out  <= "10010011110100100"; --SRAV
+			WHEN "00000000001000101---"         => control_out  <= "10010011100100101"; -- SRL
+			WHEN "00000000011000100---"         => control_out  <= "10010011100100100"; -- SRLV
+			WHEN "00000010001000100---"         => control_out  <= "10010001110100100"; --SUB
+			WHEN "00000010001100100---"         => control_out  <= "10110001100100100"; -- SUBU
+			WHEN "00101010010000100---"         => control_out  <= "001-1001010000100"; -- SW
+                        WHEN "00000001101000100---"         => control_out  <= "10010000100100100"; --XOR
+			WHEN "000000------00100---"         => control_out  <= "10110000100000100"; -- XORI
+			WHEN OTHERS                         => control_out  <= "-----------------";
+
+		END CASE;
+	END PROCESS;
+
+
+end architecture STRUCTURE;

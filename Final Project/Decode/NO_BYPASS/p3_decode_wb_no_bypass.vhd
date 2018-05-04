@@ -101,9 +101,9 @@ begin
 	
 -------------------------------------WB LOGIC signal intermediate signal assgnment------------------------------------
 
-WriteAddress_out_WB<= WriteAddress_out_WB_in_DECODE;
+--WriteAddress_out_WB<= WriteAddress_out_WB_in_DECODE;
 --WriteData_out_WB<=WriteAddress_WB_Input_DECODE;
-WriteData_out_WB<=WriteData_out_WB_in_DECODE;
+--WriteData_out_WB<=WriteData_out_WB_in_DECODE;
 
 -------------------------------------DECODE logic gates and connections ----------------------------------------------------
 
